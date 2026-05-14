@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Mail, Globe, GitBranch } from 'lucide-react'
+import { Mail, Globe, Code2 } from 'lucide-react'
 import { AnimatedSection } from '../ui/AnimatedSection'
 
 const LINKS = [
@@ -16,7 +16,7 @@ const LINKS = [
     external: true,
   },
   {
-    Icon: GitBranch,
+    Icon: Code2,
     labelKey: 'contact.github' as const,
     href: 'https://github.com/deeeemiss',
     external: true,
