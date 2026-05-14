@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Mail, Linkedin, Github } from 'lucide-react'
+import { Mail, Globe, GitBranch } from 'lucide-react'
 import { AnimatedSection } from '../ui/AnimatedSection'
 
 const LINKS = [
@@ -10,13 +10,13 @@ const LINKS = [
     external: false,
   },
   {
-    Icon: Linkedin,
+    Icon: Globe,
     labelKey: 'contact.linkedin' as const,
     href: 'https://linkedin.com/in/sebastianodemichelis',
     external: true,
   },
   {
-    Icon: Github,
+    Icon: GitBranch,
     labelKey: 'contact.github' as const,
     href: 'https://github.com/deeeemiss',
     external: true,

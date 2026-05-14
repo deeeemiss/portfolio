@@ -1,15 +1,14 @@
-import { motion } from 'framer-motion'
+import { motion, type Variants } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 
-const stagger = {
-  container: {
-    hidden: {},
-    show: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
-  },
-  item: {
-    hidden: { opacity: 0, y: 30 },
-    show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } },
-  },
+const containerVariants: Variants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.12, delayChildren: 0.1 } },
+}
+
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: 'easeOut' } },
 }
 
 export function Hero() {
@@ -36,16 +35,16 @@ export function Hero() {
       />
 
       <div className="max-w-6xl mx-auto px-6 w-full">
-        <motion.div variants={stagger.container} initial="hidden" animate="show">
+        <motion.div variants={containerVariants} initial="hidden" animate="show">
           <motion.p
-            variants={stagger.item}
+            variants={itemVariants}
             className="text-xs font-bold uppercase tracking-[4px] text-accent mb-5"
           >
             {t('hero.role')}
           </motion.p>
 
           <motion.h1
-            variants={stagger.item}
+            variants={itemVariants}
             className="font-serif italic font-bold leading-[1.0] text-text-primary mb-4"
             style={{ fontSize: 'clamp(42px, 8vw, 80px)' }}
           >
@@ -55,13 +54,13 @@ export function Hero() {
           </motion.h1>
 
           <motion.p
-            variants={stagger.item}
+            variants={itemVariants}
             className="text-xs uppercase tracking-[2px] text-text-primary/50 mb-10"
           >
             {t('hero.stack')}
           </motion.p>
 
-          <motion.div variants={stagger.item} className="flex flex-wrap gap-4">
+          <motion.div variants={itemVariants} className="flex flex-wrap gap-4">
             <a
               href="#contact"
               className="px-6 py-3 bg-accent text-bg-base text-xs font-extrabold uppercase tracking-widest rounded-lg hover:bg-accent-light transition-colors"
