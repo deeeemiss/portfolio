@@ -1,0 +1,37 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "role": "Software Developer & Creative",
+    "stack": "Vue · React · Kotlin · C# · Drone · Video",
+    "cta_contact": "Get in touch",
+    "cta_work": "View my work"
+  },
+  "about": {
+    "title": "About me",
+    "bio1": "Italian software developer with a full-stack mindset and a genuine curiosity for everything tech. Frontend with Vue, React and Angular, backend with C# and Kotlin — plus React Native when the project calls for it. Passionate about AI, automations, Raspberry Pi tinkering, and anything that can be taken apart and put back together better.",
+    "bio2": "On the creative side: video editing, color grading and aerial drone footage. When I'm not writing code, I'm probably cutting a video or flying somewhere."
+  },
+  "skills": {
+    "title": "Skills",
+    "tab_code": "Code",
+    "tab_creative": "Creative"
+  },
+  "projects": {
+    "title": "Projects",
+    "filter_all": "All",
+    "filter_dev": "Dev",
+    "filter_creative": "Creative"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Have a project in mind? Let's talk.",
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  }
+}
