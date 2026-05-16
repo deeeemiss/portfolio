@@ -1,0 +1,101 @@
+<h2>Projects — formato card</h2>
+<p class="subtitle">Come vuoi mostrare i progetti nel contenuto destro?</p>
+
+<div class="split" style="align-items: flex-start;">
+  <!-- Opzione A: Lista orizzontale (come Brittany) -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)" style="flex:1;">
+    <div class="card-image" style="background:#0A1628; padding:16px; border-radius:8px;">
+      <p style="font-size:10px; color:rgba(240,234,214,0.4); text-transform:uppercase; letter-spacing:2px; margin-bottom:12px;">Lista orizzontale</p>
+
+      <!-- Card 1 -->
+      <div style="display:flex; gap:14px; padding:14px; background:#0D2137; border-radius:8px; margin-bottom:8px; transition:background 0.2s;">
+        <div style="width:80px; height:56px; background:#163352; border-radius:6px; flex-shrink:0; background: linear-gradient(135deg, #163352, #1a4060);"></div>
+        <div>
+          <div style="font-size:12px; font-weight:700; color:#F0EAD6;">FOOSBALL ↗</div>
+          <div style="font-size:10px; color:rgba(240,234,214,0.55); margin-top:4px; line-height:1.5;">App per tracciare partite di calcio balilla in ufficio. Real-time con push notifications.</div>
+          <div style="display:flex; gap:4px; margin-top:8px; flex-wrap:wrap;">
+            <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:2px 8px; font-size:9px;">Angular</span>
+            <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:2px 8px; font-size:9px;">C#</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div style="display:flex; gap:14px; padding:14px; background:#0D2137; border-radius:8px; margin-bottom:8px;">
+        <div style="width:80px; height:56px; border-radius:6px; flex-shrink:0; background: linear-gradient(135deg, #1a3a5c, #0d2137);"></div>
+        <div>
+          <div style="font-size:12px; font-weight:700; color:#F0EAD6;">Binario App ↗</div>
+          <div style="font-size:10px; color:rgba(240,234,214,0.55); margin-top:4px; line-height:1.5;">Orari treni in tempo reale. React Native + Expo.</div>
+          <div style="display:flex; gap:4px; margin-top:8px;">
+            <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:2px 8px; font-size:9px;">React Native</span>
+            <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:2px 8px; font-size:9px;">Expo</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div style="display:flex; gap:14px; padding:14px; background:#0D2137; border-radius:8px;">
+        <div style="width:80px; height:56px; border-radius:6px; flex-shrink:0; background: linear-gradient(135deg, #0a2a1a, #163352);"></div>
+        <div>
+          <div style="font-size:12px; font-weight:700; color:#F0EAD6;">Aerial Reel 2024 ↗</div>
+          <div style="font-size:10px; color:rgba(240,234,214,0.55); margin-top:4px; line-height:1.5;">Showreel riprese aeree drone. Color grading in DaVinci Resolve.</div>
+          <div style="display:flex; gap:4px; margin-top:8px;">
+            <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:2px 8px; font-size:9px;">Creative</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Lista (come Brittany)</h3>
+      <p>Thumbnail + testo in riga. Tutti i progetti insieme, filtro All/Dev/Creative sopra.</p>
+    </div>
+  </div>
+
+  <!-- Opzione B: Grid (come ora) -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)" style="flex:1;">
+    <div class="card-image" style="background:#0A1628; padding:16px; border-radius:8px;">
+      <p style="font-size:10px; color:rgba(240,234,214,0.4); text-transform:uppercase; letter-spacing:2px; margin-bottom:12px;">Grid 2 colonne</p>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:8px;">
+        <div style="background:#0D2137; border-radius:8px; overflow:hidden;">
+          <div style="height:60px; background:linear-gradient(135deg,#163352,#1a4060);"></div>
+          <div style="padding:10px;">
+            <div style="font-size:11px; font-weight:700; color:#F0EAD6;">FOOSBALL</div>
+            <div style="font-size:9px; color:rgba(240,234,214,0.5); margin-top:3px; line-height:1.4;">App calcio balilla in ufficio</div>
+            <div style="display:flex; gap:3px; margin-top:6px; flex-wrap:wrap;">
+              <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:1px 6px; font-size:8px;">Angular</span>
+            </div>
+          </div>
+        </div>
+        <div style="background:#0D2137; border-radius:8px; overflow:hidden;">
+          <div style="height:60px; background:linear-gradient(135deg,#1a3a5c,#0d2137);"></div>
+          <div style="padding:10px;">
+            <div style="font-size:11px; font-weight:700; color:#F0EAD6;">Binario App</div>
+            <div style="font-size:9px; color:rgba(240,234,214,0.5); margin-top:3px; line-height:1.4;">Orari treni React Native</div>
+            <div style="display:flex; gap:3px; margin-top:6px;">
+              <span style="background:rgba(29,233,182,0.08); color:#1DE9B6; border:1px solid rgba(29,233,182,0.2); border-radius:12px; padding:1px 6px; font-size:8px;">Expo</span>
+            </div>
+          </div>
+        </div>
+        <div style="background:#0D2137; border-radius:8px; overflow:hidden;">
+          <div style="height:60px; background:linear-gradient(135deg,#0a2a1a,#163352);"></div>
+          <div style="padding:10px;">
+            <div style="font-size:11px; font-weight:700; color:#F0EAD6;">Aerial Reel</div>
+            <div style="font-size:9px; color:rgba(240,234,214,0.5); margin-top:3px; line-height:1.4;">Showreel drone 2024</div>
+          </div>
+        </div>
+        <div style="background:#0D2137; border-radius:8px; overflow:hidden;">
+          <div style="height:60px; background:linear-gradient(135deg,#2a1a3a,#163352);"></div>
+          <div style="padding:10px;">
+            <div style="font-size:11px; font-weight:700; color:#F0EAD6;">Lupus in Tavola</div>
+            <div style="font-size:9px; color:rgba(240,234,214,0.5); margin-top:3px; line-height:1.4;">App gioco Capacitor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Grid 2 col</h3>
+      <p>Come il portfolio attuale. Più visivo, ma meno spazio per descrizioni. Filtri categoria sopra.</p>
+    </div>
+  </div>
+</div>
