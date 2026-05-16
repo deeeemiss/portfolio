@@ -2,7 +2,7 @@ export interface Experience {
   id: string
   dateRange: string
   role: string
-  company: string
+  company?: string
   companyUrl?: string
   description: string
   descriptionEn: string
@@ -25,7 +25,6 @@ export const experiences: Experience[] = [
     id: 'freelance',
     dateRange: '2021 — 2023',
     role: 'Freelance Developer & Video Editor',
-    company: '',
     description:
       'Siti web su misura, app mobile con React Native, video production e color grading per brand locali e creator.',
     descriptionEn:
