@@ -5,7 +5,11 @@
     "skills": "Competenze",
     "projects": "Progetti",
     "creative": "Lavori Creativi",
-    "contact": "Contatti"
+    "contact": "Contatti",
+    "aria_label": "Sezioni"
+  },
+  "profile": {
+    "tagline": "Full-stack dev appassionato di AI, automazioni e riprese aeree con drone."
   },
   "hero": {
     "role": "Software Developer & Creative",

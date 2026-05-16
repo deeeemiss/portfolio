@@ -5,7 +5,11 @@
     "skills": "Skills",
     "projects": "Projects",
     "creative": "Creative Work",
-    "contact": "Contact"
+    "contact": "Contact",
+    "aria_label": "Sections"
+  },
+  "profile": {
+    "tagline": "Full-stack dev passionate about AI, automation, and aerial drone footage."
   },
   "hero": {
     "role": "Software Developer & Creative",

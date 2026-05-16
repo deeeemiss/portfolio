@@ -38,12 +38,12 @@ export function Sidebar() {
             Software Developer &amp; Creative
           </p>
           <p className="text-text-primary/50 text-sm mt-3 leading-relaxed max-w-[280px]">
-            Full-stack dev appassionato di AI, automazioni e riprese aeree con drone.
+            {t('profile.tagline')}
           </p>
         </div>
 
         {/* Nav — hidden on mobile */}
-        <nav className="hidden md:flex flex-col gap-1 mt-12" aria-label="Sezioni">
+        <nav className="hidden md:flex flex-col gap-1 mt-12" aria-label={t('nav.aria_label')}>
           {NAV_ITEMS.map(({ id, key }) => {
             const isActive = active === id
             return (
