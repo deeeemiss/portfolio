@@ -1,8 +1,10 @@
 {
   "nav": {
     "about": "About",
+    "experience": "Experience",
     "skills": "Skills",
     "projects": "Projects",
+    "creative": "Creative Work",
     "contact": "Contact"
   },
   "hero": {
@@ -22,10 +24,13 @@
     "tab_creative": "Creative"
   },
   "projects": {
-    "title": "Projects",
-    "filter_all": "All",
-    "filter_dev": "Dev",
-    "filter_creative": "Creative"
+    "title": "Projects"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "creative": {
+    "title": "Creative Work"
   },
   "contact": {
     "title": "Get in touch",

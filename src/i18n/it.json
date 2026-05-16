@@ -1,8 +1,10 @@
 {
   "nav": {
     "about": "Chi sono",
+    "experience": "Esperienza",
     "skills": "Competenze",
     "projects": "Progetti",
+    "creative": "Lavori Creativi",
     "contact": "Contatti"
   },
   "hero": {
@@ -22,10 +24,13 @@
     "tab_creative": "Creative"
   },
   "projects": {
-    "title": "Progetti",
-    "filter_all": "Tutti",
-    "filter_dev": "Dev",
-    "filter_creative": "Creative"
+    "title": "Progetti"
+  },
+  "experience": {
+    "title": "Esperienza"
+  },
+  "creative": {
+    "title": "Lavori Creativi"
   },
   "contact": {
     "title": "Parliamo",
