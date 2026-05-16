@@ -16,47 +16,52 @@ export function ProjectCard({ project }: Props) {
 
   return (
     <motion.div
-      layout
-      className="bg-bg-surface rounded-xl overflow-hidden border border-bg-elevated hover:border-accent/40 transition-colors group h-full flex flex-col"
-      whileHover={{ scale: 1.02 }}
+      className="flex gap-4 p-4 rounded-xl border border-transparent cursor-default"
+      whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
       transition={{ duration: 0.2 }}
     >
-      <div className="aspect-video bg-bg-elevated relative flex-shrink-0">
+      {/* Thumbnail */}
+      <div className="w-[90px] h-[62px] rounded-md flex-shrink-0 overflow-hidden bg-bg-elevated">
         {project.image ? (
           <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-bg-elevated to-bg-base" />
         )}
-        {project.link && (
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="absolute top-3 right-3 p-2 bg-bg-base/80 rounded-lg text-accent opacity-0 group-hover:opacity-100 transition-opacity"
-            aria-label="Open project"
-          >
-            <ExternalLink size={14} />
-          </a>
-        )}
-        <span className="absolute bottom-3 left-3 px-2 py-1 bg-bg-base/80 rounded text-[10px] font-bold uppercase tracking-widest text-accent">
-          {project.category}
-        </span>
       </div>
-      <div className="p-5 flex flex-col flex-1">
-        <h3 className="font-serif italic text-xl text-text-primary mb-2">{project.title}</h3>
-        <p className="text-text-primary/55 text-sm leading-relaxed mb-4 line-clamp-2 flex-1">{description}</p>
-        {project.tech && (
-          <div className="flex flex-wrap gap-2 mt-auto">
-            {project.tech.map(t => (
-              <span
-                key={t}
-                className="text-xs text-accent/70 bg-accent/5 border border-accent/15 px-2 py-0.5 rounded"
-              >
-                {t}
-              </span>
-            ))}
-          </div>
-        )}
+
+      {/* Info */}
+      <div className="flex-1 min-w-0">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="font-serif italic text-[14px] font-bold text-text-primary leading-tight">
+            {project.title}
+          </h3>
+          {project.link && (
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent flex-shrink-0 mt-0.5"
+              aria-label={`Open ${project.title}`}
+            >
+              <ExternalLink size={13} />
+            </a>
+          )}
+        </div>
+
+        <p className="text-[13px] text-text-primary/50 leading-relaxed mt-1 line-clamp-2">
+          {description}
+        </p>
+
+        <div className="flex flex-wrap gap-1.5 mt-2.5">
+          {project.tech.map(tag => (
+            <span
+              key={tag}
+              className="text-[11px] font-semibold text-accent bg-accent/7 border border-accent/22 rounded-full px-2.5 py-0.5"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </motion.div>
   )

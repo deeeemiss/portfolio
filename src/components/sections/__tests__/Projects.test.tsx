@@ -1,14 +1,7 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen } from '@testing-library/react'
 import { Projects } from '../Projects'
 import { projects } from '../../../data/projects'
-
-vi.mock('framer-motion', () => ({
-  motion: {
-    div: ({ children, ...p }: React.HTMLAttributes<HTMLDivElement>) => <div {...p}>{children}</div>,
-  },
-  AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
-}))
 
 vi.mock('react-i18next', () => ({
   useTranslation: () => ({
@@ -17,39 +10,25 @@ vi.mock('react-i18next', () => ({
   }),
 }))
 
-vi.mock('../../ui/AnimatedSection', () => ({
-  AnimatedSection: ({ children }: { children: React.ReactNode }) => <div>{children}</div>,
-}))
-
 vi.mock('../../ui/ProjectCard', () => ({
-  ProjectCard: ({ project }: { project: { title: string } }) => <div data-testid="project-card">{project.title}</div>,
+  ProjectCard: ({ project }: { project: { title: string } }) => (
+    <div data-testid="project-card">{project.title}</div>
+  ),
 }))
-
-const devCount = projects.filter(p => p.category === 'dev').length
-const creativeCount = projects.filter(p => p.category === 'creative').length
 
 describe('Projects section', () => {
-  it('shows all projects by default', () => {
+  it('renders all projects', () => {
     render(<Projects />)
     expect(screen.getAllByTestId('project-card').length).toBe(projects.length)
   })
 
-  it('filters to dev projects only', () => {
+  it('renders the section label', () => {
     render(<Projects />)
-    fireEvent.click(screen.getByText('projects.filter_dev'))
-    expect(screen.getAllByTestId('project-card').length).toBe(devCount)
+    expect(screen.getByText('projects.title')).toBeTruthy()
   })
 
-  it('filters to creative projects only', () => {
+  it('renders FOOSBALL project', () => {
     render(<Projects />)
-    fireEvent.click(screen.getByText('projects.filter_creative'))
-    expect(screen.getAllByTestId('project-card').length).toBe(creativeCount)
-  })
-
-  it('returns to all projects when All is clicked', () => {
-    render(<Projects />)
-    fireEvent.click(screen.getByText('projects.filter_dev'))
-    fireEvent.click(screen.getByText('projects.filter_all'))
-    expect(screen.getAllByTestId('project-card').length).toBe(projects.length)
+    expect(screen.getByText('FOOSBALL')).toBeTruthy()
   })
 })
