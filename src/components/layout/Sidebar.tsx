@@ -3,7 +3,7 @@ import { Mail, Globe, Code2 } from 'lucide-react'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { useActiveSection } from '../../hooks/useActiveSection'
 
-const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'creative', 'contact'] as const
+const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'creative'] as const
 type SectionId = (typeof SECTION_IDS)[number]
 const SECTION_IDS_ARRAY: string[] = [...SECTION_IDS]
 
@@ -13,7 +13,6 @@ const NAV_ITEMS: { id: SectionId; key: string }[] = [
   { id: 'skills', key: 'nav.skills' },
   { id: 'projects', key: 'nav.projects' },
   { id: 'creative', key: 'nav.creative' },
-  { id: 'contact', key: 'nav.contact' },
 ]
 
 const SOCIAL_LINKS = [
@@ -77,20 +76,23 @@ export function Sidebar() {
         </div>
       </div>
 
-      {/* Social icons */}
-      <div className="flex gap-3.5 mt-10">
+      {/* Social links */}
+      <div className="flex flex-col gap-3 mt-10">
         {SOCIAL_LINKS.map(({ href, label, Icon }) => (
           <a
             key={label}
             href={href}
             target={href.startsWith('mailto') ? undefined : '_blank'}
             rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-            aria-label={label}
-            className="w-9 h-9 flex items-center justify-center rounded-full border border-text-primary/20 text-text-primary/45 hover:border-accent hover:text-accent transition-colors"
+            className="flex items-center gap-3 text-text-primary/40 hover:text-accent transition-colors duration-200 group"
           >
-            <Icon size={15} />
+            <Icon size={18} />
+            <span className="text-[12px] font-medium tracking-wide">{label}</span>
           </a>
         ))}
+        <p className="mt-6 text-[10px] text-text-primary/20 uppercase tracking-widest">
+          Sebastiano Demichelis &copy; {new Date().getFullYear()}
+        </p>
       </div>
     </aside>
   )

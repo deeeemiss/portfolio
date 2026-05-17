@@ -31,7 +31,6 @@ describe('Sidebar', () => {
     expect(screen.getByText('nav.skills')).toBeTruthy()
     expect(screen.getByText('nav.projects')).toBeTruthy()
     expect(screen.getByText('nav.creative')).toBeTruthy()
-    expect(screen.getByText('nav.contact')).toBeTruthy()
   })
 
   it('renders the LanguageSwitcher', () => {
