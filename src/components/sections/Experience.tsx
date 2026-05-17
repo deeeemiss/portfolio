@@ -28,7 +28,7 @@ export function Experience() {
                   src={exp.logoUrl}
                   alt={exp.company}
                   className="h-5 w-auto object-contain object-left opacity-30 group-hover:opacity-55 transition-opacity duration-200"
-                  style={exp.logoUrl.endsWith('.png') ? { filter: 'brightness(0) invert(1)' } : {}}
+                  style={exp.logoUrl.endsWith('.svg') ? { filter: 'brightness(0) invert(1)' } : {}}
                 />
               )}
             </div>
