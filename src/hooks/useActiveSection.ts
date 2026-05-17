@@ -19,20 +19,6 @@ export function useActiveSection(sectionIds: string[]): string {
           current = ids[i]
         }
       }
-
-      // last section: activate when visible and near page bottom
-      const lastId = ids[ids.length - 1]
-      if (lastId && current !== lastId) {
-        const lastEl = document.getElementById(lastId)
-        if (lastEl) {
-          const lastTop = lastEl.getBoundingClientRect().top
-          const remaining = document.documentElement.scrollHeight - window.scrollY - window.innerHeight
-          if (lastTop > 0 && lastTop < window.innerHeight && remaining < window.innerHeight * 0.5) {
-            current = lastId
-          }
-        }
-      }
-
       setActive(current)
     }
 
