@@ -12,6 +12,7 @@ vi.mock('react-i18next', () => ({
 vi.mock('framer-motion', () => ({
   motion: {
     div: ({ children, ...p }: React.HTMLAttributes<HTMLDivElement>) => <div {...p}>{children}</div>,
+    a: ({ children, ...p }: React.HTMLAttributes<HTMLAnchorElement>) => <a {...p}>{children}</a>,
   },
 }))
 
