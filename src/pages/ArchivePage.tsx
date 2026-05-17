@@ -8,7 +8,7 @@ export function ArchivePage() {
   const isEn = i18n.language === 'en'
 
   return (
-    <div className="bg-bg-base min-h-screen px-6 py-16 md:px-16 md:py-20 max-w-[1400px] mx-auto">
+    <div className="bg-bg-base min-h-screen px-8 py-16 md:pl-28 md:pr-16 md:py-20 max-w-[1400px] mx-auto">
       <Link
         to="/"
         className="inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[2px] text-text-primary/45 hover:text-accent transition-colors mb-12 group"

@@ -26,7 +26,6 @@ export function Projects() {
         to="/archive"
         className="mt-6 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors flex items-center gap-2 group"
       >
-        <span className="h-px w-6 bg-accent/40 group-hover:bg-accent group-hover:w-10 transition-all duration-300" />
         {t('projects.view_all')} ({projects.length})
         <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
       </Link>
