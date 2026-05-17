@@ -53,7 +53,7 @@ export const experiences: Experience[] = [
     id: 'freelance',
     dateRange: '2021 — 2023',
     dateRangeEn: '2021 — 2023',
-    role: 'Freelance Developer & Video Editor',
+    role: 'Freelance',
     description:
       'Siti web su misura, e-commerce Shopify, app mobile con React Native. Video production e color grading per brand locali e creator. Stage in Moda srl: gestione e sviluppo di tre e-commerce con Magento, Prestashop e Shopify.',
     descriptionEn:
