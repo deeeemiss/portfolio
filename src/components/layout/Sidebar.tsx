@@ -77,17 +77,16 @@ export function Sidebar() {
       </div>
 
       {/* Social links */}
-      <div className="flex flex-col gap-3 mt-10">
+      <div className="flex gap-4 mt-10">
         {SOCIAL_LINKS.map(({ href, label, Icon }) => (
           <a
             key={label}
             href={href}
             target={href.startsWith('mailto') ? undefined : '_blank'}
             rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-            className="flex items-center gap-3 text-text-primary/65 hover:text-accent transition-colors duration-200 group"
+            className="text-text-primary/65 hover:text-accent transition-colors duration-200"
           >
             <Icon size={18} />
-            <span className="text-[12px] font-medium tracking-wide">{label}</span>
           </a>
         ))}
         <p className="mt-6 text-[10px] text-text-primary/20 uppercase tracking-widest">
