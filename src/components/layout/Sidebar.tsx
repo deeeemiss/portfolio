@@ -40,9 +40,8 @@ export function Sidebar() {
       <div>
         {/* Identity */}
         <div>
-          <h1 className="font-sans text-4xl md:text-[44px] font-extrabold text-text-primary leading-tight tracking-tight">
-            <span className="block">Sebastiano</span>
-            <span className="block">Demichelis</span>
+          <h1 className="font-sans text-3xl md:text-[36px] font-extrabold text-text-primary leading-tight tracking-tight whitespace-nowrap">
+Sebastiano Demichelis
           </h1>
           <p className="text-accent font-semibold text-base mt-2">
             Software Developer &amp; Creative
