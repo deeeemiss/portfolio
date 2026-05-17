@@ -9,8 +9,8 @@ const SECTION_IDS_ARRAY: string[] = [...SECTION_IDS]
 const NAV_ITEMS: { id: SectionId; key: string }[] = [
   { id: 'about', key: 'nav.about' },
   { id: 'experience', key: 'nav.experience' },
-  { id: 'skills', key: 'nav.skills' },
   { id: 'projects', key: 'nav.projects' },
+  { id: 'skills', key: 'nav.skills' },
 ]
 
 interface SocialLink {

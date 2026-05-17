@@ -27,8 +27,8 @@ export default function App() {
         <main className="flex-1 flex flex-col gap-24 px-8 py-16 md:px-12 md:py-24 md:pl-6">
           <About />
           <Experience />
-          <Skills />
           <Projects />
+          <Skills />
         </main>
       </div>
     </div>
