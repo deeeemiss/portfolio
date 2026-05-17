@@ -50,7 +50,8 @@ export function Sidebar() {
             return (
               <a
                 key={id}
-                href={`#${id}`}
+                href={id === 'about' ? '#' : `#${id}`}
+                onClick={id === 'about' ? (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }) } : undefined}
                 className="group flex items-center gap-3.5 py-1.5"
               >
                 <span
