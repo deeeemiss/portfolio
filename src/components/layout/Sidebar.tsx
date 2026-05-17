@@ -13,7 +13,15 @@ const NAV_ITEMS: { id: SectionId; key: string }[] = [
   { id: 'projects', key: 'nav.projects' },
 ]
 
-const SOCIAL_LINKS = [
+interface SocialLink {
+  href: string
+  label: string
+  tooltip?: string
+  path: string
+  disabled?: boolean
+}
+
+const SOCIAL_LINKS: SocialLink[] = [
   {
     href: 'https://github.com/deeeemiss',
     label: 'GitHub',
@@ -28,6 +36,13 @@ const SOCIAL_LINKS = [
     href: 'https://www.instagram.com/deeeemiss',
     label: 'Instagram',
     path: 'M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z',
+  },
+  {
+    href: 'https://www.behance.net/deeeemiss',
+    label: 'Behance',
+    tooltip: 'Behance — coming soon',
+    disabled: true,
+    path: 'M22 7h-7V5h7v2zm1.726 10c-.442 1.297-2.029 3-5.101 3-3.074 0-5.564-1.729-5.564-5.675 0-3.91 2.325-5.92 5.466-5.92 3.082 0 4.964 1.782 5.375 4.426.078.506.109 1.188.095 2.14H15.97c.13 1.2.577 1.81 1.58 1.81.846 0 1.302-.397 1.462-1.09l2.714.32zm-4.127-5.67c-.5 0-1.215.335-1.58 1.215h3.245c-.12-1.038-.9-1.215-1.665-1.215zm-7.44-1.52c0-1.5-1.024-2.31-2.565-2.31H6.17v4.65h2.04c1.458 0 2.548-.86 2.548-2.34zM6.17 16.86h2.24c1.563 0 2.526-.764 2.526-2.116 0-1.354-.963-2.116-2.526-2.116H6.17v4.232zM2 5v14h8.07c2.51 0 4.43-1.613 4.43-4.127 0-1.745-.97-3.06-2.59-3.558 1.215-.55 1.998-1.69 1.998-3.063C13.908 6.27 12.032 5 9.448 5H2z',
   },
   {
     href: 'mailto:sebastianodemichelis@gmail.com',
@@ -92,23 +107,38 @@ Sebastiano Demichelis
 
       {/* Social links */}
       <div className="flex gap-4 mt-10">
-        {SOCIAL_LINKS.map(({ href, label, path }) => (
-          <a
-            key={label}
-            href={href}
-            target={href.startsWith('mailto') ? undefined : '_blank'}
-            rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-            aria-label={label}
-            className="relative group/tip text-text-primary/55 hover:text-text-primary transition-colors duration-200"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-              <path d={path} />
-            </svg>
-            <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 translate-y-1 group-hover/tip:opacity-100 group-hover/tip:translate-y-0 transition-all duration-200">
-              {label}
+        {SOCIAL_LINKS.map(({ href, label, tooltip, path, disabled }) =>
+          disabled ? (
+            <span
+              key={label}
+              aria-label={label}
+              className="relative group/tip text-text-primary/25 cursor-not-allowed"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path d={path} />
+              </svg>
+              <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 translate-y-1 group-hover/tip:opacity-100 group-hover/tip:translate-y-0 transition-all duration-200">
+                {tooltip ?? label}
+              </span>
             </span>
-          </a>
-        ))}
+          ) : (
+            <a
+              key={label}
+              href={href}
+              target={href.startsWith('mailto') ? undefined : '_blank'}
+              rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
+              aria-label={label}
+              className="relative group/tip text-text-primary/55 hover:text-text-primary transition-colors duration-200"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path d={path} />
+              </svg>
+              <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 translate-y-1 group-hover/tip:opacity-100 group-hover/tip:translate-y-0 transition-all duration-200">
+                {tooltip ?? label}
+              </span>
+            </a>
+          )
+        )}
       </div>
     </aside>
   )
