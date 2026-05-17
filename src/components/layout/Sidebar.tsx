@@ -106,9 +106,6 @@ export function Sidebar() {
             </span>
           </a>
         ))}
-        <p className="mt-6 text-[10px] text-text-primary/20 uppercase tracking-widest">
-          Sebastiano Demichelis &copy; {new Date().getFullYear()}
-        </p>
       </div>
     </aside>
   )
