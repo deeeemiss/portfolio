@@ -20,7 +20,7 @@ export function Experience() {
             href={exp.companyUrl ?? undefined}
             target={exp.companyUrl ? '_blank' : undefined}
             rel={exp.companyUrl ? 'noopener noreferrer' : undefined}
-            className="group flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-default"
+            className="group flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-pointer"
             whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
             transition={{ duration: 0.2 }}
           >
