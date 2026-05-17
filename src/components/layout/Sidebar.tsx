@@ -36,7 +36,7 @@ export function Sidebar() {
   const active = useActiveSection(SECTION_IDS_ARRAY)
 
   return (
-    <aside className="md:sticky md:top-0 md:h-screen md:w-[42%] md:flex-shrink-0 flex flex-col justify-between px-8 py-12 md:px-12 md:py-16">
+    <aside className="md:sticky md:top-0 md:h-screen md:w-[36%] md:flex-shrink-0 flex flex-col justify-between px-8 py-12 md:px-12 md:py-16">
       <div>
         {/* Identity */}
         <div>

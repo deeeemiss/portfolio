@@ -22,7 +22,7 @@ export default function App() {
       />
 
       {/* Two-column layout */}
-      <div className="relative z-10 flex flex-col md:flex-row max-w-[1200px] mx-auto">
+      <div className="relative z-10 flex flex-col md:flex-row max-w-[1400px] mx-auto">
         <Sidebar />
         <main className="flex-1 flex flex-col gap-24 px-8 py-12 md:px-12 md:py-16 md:pl-6">
           <About />
