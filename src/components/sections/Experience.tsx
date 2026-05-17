@@ -21,7 +21,7 @@ export function Experience() {
             whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
             transition={{ duration: 0.2 }}
           >
-            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 md:min-w-[110px] md:pt-0.5 flex-shrink-0">
+            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 md:w-[152px] md:min-w-[152px] md:pt-0.5 flex-shrink-0">
               {exp.dateRange}
             </div>
 
