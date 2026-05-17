@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { ProjectCard } from '../ui/ProjectCard'
 import { projects } from '../../data/projects'
@@ -27,6 +28,7 @@ export function Projects() {
       >
         <span className="h-px w-6 bg-accent/40 group-hover:bg-accent group-hover:w-10 transition-all duration-300" />
         {t('projects.view_all')} ({projects.length})
+        <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
       </Link>
     </section>
   )
