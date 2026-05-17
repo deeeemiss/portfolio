@@ -5,6 +5,7 @@ import { useActiveSection } from '../../hooks/useActiveSection'
 
 const SECTION_IDS = ['about', 'experience', 'skills', 'projects', 'creative', 'contact'] as const
 type SectionId = (typeof SECTION_IDS)[number]
+const SECTION_IDS_ARRAY: string[] = [...SECTION_IDS]
 
 const NAV_ITEMS: { id: SectionId; key: string }[] = [
   { id: 'about', key: 'nav.about' },
@@ -23,7 +24,7 @@ const SOCIAL_LINKS = [
 
 export function Sidebar() {
   const { t } = useTranslation()
-  const active = useActiveSection([...SECTION_IDS])
+  const active = useActiveSection(SECTION_IDS_ARRAY)
 
   return (
     <aside className="md:sticky md:top-0 md:h-screen md:w-[42%] md:flex-shrink-0 flex flex-col justify-between px-8 py-12 md:px-12 md:py-16">
