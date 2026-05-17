@@ -96,11 +96,14 @@ export function Sidebar() {
             target={href.startsWith('mailto') ? undefined : '_blank'}
             rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
             aria-label={label}
-            className="text-text-primary/55 hover:text-text-primary transition-colors duration-200"
+            className="relative group/tip text-text-primary/55 hover:text-text-primary transition-colors duration-200"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
               <path d={path} />
             </svg>
+            <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 group-hover/tip:opacity-100 transition-opacity duration-200">
+              {label}
+            </span>
           </a>
         ))}
         <p className="mt-6 text-[10px] text-text-primary/20 uppercase tracking-widest">
