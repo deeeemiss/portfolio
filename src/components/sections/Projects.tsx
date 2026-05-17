@@ -33,7 +33,7 @@ export function Projects() {
 
       <button
         onClick={() => setOverlayOpen(true)}
-        className="mt-6 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors flex items-center gap-2 group"
+        className="mt-6 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors flex items-center gap-2 group cursor-pointer"
       >
         <span className="h-px w-6 bg-accent/40 group-hover:bg-accent group-hover:w-10 transition-all duration-300" />
         {t('projects.view_all')} ({projects.length})
@@ -67,7 +67,7 @@ export function Projects() {
                   </h2>
                   <button
                     onClick={() => setOverlayOpen(false)}
-                    className="w-9 h-9 flex items-center justify-center rounded-full border border-text-primary/20 text-text-primary/45 hover:border-accent hover:text-accent transition-colors"
+                    className="w-9 h-9 flex items-center justify-center rounded-full border border-text-primary/20 text-text-primary/45 hover:border-accent hover:text-accent transition-colors cursor-pointer"
                     aria-label="Close"
                   >
                     <X size={15} />

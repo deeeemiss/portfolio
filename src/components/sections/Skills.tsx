@@ -27,7 +27,7 @@ export function Skills() {
           <button
             key={key}
             onClick={() => setTab(key)}
-            className={`relative px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest rounded-lg transition-colors duration-200 ${
+            className={`relative px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest rounded-lg transition-colors duration-200 cursor-pointer ${
               tab === key ? 'text-bg-base' : 'text-text-primary/45 hover:text-text-primary'
             }`}
           >
