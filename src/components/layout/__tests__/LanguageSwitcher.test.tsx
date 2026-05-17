@@ -21,10 +21,17 @@ describe('LanguageSwitcher', () => {
     expect(screen.getByText('EN')).toBeTruthy()
   })
 
-  it('calls changeLanguage with "en" when current is "it"', () => {
+  it('calls changeLanguage with "en" when EN button clicked', () => {
     currentLang = 'it'
     render(<LanguageSwitcher />)
-    fireEvent.click(screen.getByRole('button'))
+    fireEvent.click(screen.getByRole('button', { name: /en/i }))
     expect(changeLanguageMock).toHaveBeenCalledWith('en')
+  })
+
+  it('calls changeLanguage with "it" when IT button clicked', () => {
+    currentLang = 'en'
+    render(<LanguageSwitcher />)
+    fireEvent.click(screen.getByRole('button', { name: /it/i }))
+    expect(changeLanguageMock).toHaveBeenCalledWith('it')
   })
 })
