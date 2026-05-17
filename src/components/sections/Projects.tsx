@@ -12,7 +12,7 @@ export function Projects() {
 
   return (
     <section id="projects" className="scroll-mt-4">
-      <h2 className="text-[10px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
+      <h2 className="text-[11px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
         {t('projects.title')}
       </h2>
 

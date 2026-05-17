@@ -9,7 +9,7 @@ export function Experience() {
 
   return (
     <section id="experience" className="scroll-mt-4">
-      <h2 className="text-[10px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
+      <h2 className="text-[11px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
         {t('experience.title')}
       </h2>
 

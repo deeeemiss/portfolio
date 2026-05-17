@@ -5,7 +5,7 @@ export function About() {
 
   return (
     <section id="about" className="scroll-mt-4">
-      <h2 className="text-[10px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
+      <h2 className="text-[11px] font-bold uppercase tracking-[3px] text-text-primary/35 mb-7">
         {t('about.title')}
       </h2>
       <div className="space-y-4 text-text-primary/65 leading-relaxed text-[15px]">
