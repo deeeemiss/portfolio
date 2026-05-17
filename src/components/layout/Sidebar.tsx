@@ -17,7 +17,7 @@ const NAV_ITEMS: { id: SectionId; key: string }[] = [
 
 const SOCIAL_LINKS = [
   { href: 'https://github.com/deeeemiss', label: 'GitHub', Icon: Code2 },
-  { href: 'https://linkedin.com/in/sebastianodemichelis', label: 'LinkedIn', Icon: Globe },
+  { href: 'https://www.linkedin.com/in/sebastiano-demichelis', label: 'LinkedIn', Icon: Globe },
   { href: 'mailto:sebastianodemichelis@gmail.com', label: 'Email', Icon: Mail },
 ]
 
