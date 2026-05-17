@@ -8,6 +8,7 @@ export interface Experience {
   description: string
   descriptionEn: string
   logoUrl?: string
+  logoHeightClass?: string
   tech: string[]
 }
 
@@ -34,6 +35,7 @@ export const experiences: Experience[] = [
     company: 'AlphaWaves',
     companyUrl: 'https://www.awaves.it',
     logoUrl: '/logos/alphawaves.png',
+    logoHeightClass: 'h-10',
     description:
       'Sviluppo back-end di una piattaforma benessere in team di quattro persone. Progettazione dei layer di dati e interfacciamento con il front-end. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
     descriptionEn:
