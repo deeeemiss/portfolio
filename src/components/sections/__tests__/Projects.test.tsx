@@ -16,10 +16,20 @@ vi.mock('../../ui/ProjectCard', () => ({
   ),
 }))
 
+vi.mock('framer-motion', () => ({
+  motion: {
+    div: ({ children, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
+      <div {...props}>{children}</div>
+    ),
+  },
+  AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
+}))
+
 describe('Projects section', () => {
-  it('renders all projects', () => {
+  it('renders first 3 projects', () => {
     render(<Projects />)
-    expect(screen.getAllByTestId('project-card').length).toBe(projects.length)
+    const cards = screen.getAllByTestId('project-card')
+    expect(cards.length).toBe(Math.min(3, projects.length))
   })
 
   it('renders the section label', () => {
@@ -30,5 +40,10 @@ describe('Projects section', () => {
   it('renders FOOSBALL project', () => {
     render(<Projects />)
     expect(screen.getByText('FOOSBALL')).toBeTruthy()
+  })
+
+  it('renders the view all button', () => {
+    render(<Projects />)
+    expect(screen.getByText(/Vedi tutti|View all|projects\.view_all/)).toBeTruthy()
   })
 })

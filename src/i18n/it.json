@@ -28,7 +28,8 @@
     "tab_creative": "Creative"
   },
   "projects": {
-    "title": "Progetti"
+    "title": "Progetti",
+    "view_all": "Vedi tutti"
   },
   "experience": {
     "title": "Esperienza"
