@@ -17,11 +17,11 @@ export function Experience() {
         {experiences.map(exp => (
           <motion.div
             key={exp.id}
-            className="flex gap-6 p-4 rounded-xl border border-transparent cursor-default"
+            className="flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-default"
             whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
             transition={{ duration: 0.2 }}
           >
-            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 min-w-[110px] pt-0.5 flex-shrink-0">
+            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 md:min-w-[110px] md:pt-0.5 flex-shrink-0">
               {exp.dateRange}
             </div>
 
