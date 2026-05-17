@@ -51,18 +51,17 @@ export function Sidebar() {
               <a
                 key={id}
                 href={`#${id}`}
-                className="flex items-center gap-3.5 py-1.5"
+                className="group flex items-center gap-3.5 py-1.5"
               >
                 <span
-                  className="h-px transition-all duration-300 ease-in-out"
-                  style={{
-                    width: isActive ? '52px' : '24px',
-                    background: isActive ? '#1DE9B6' : 'rgba(240,234,214,0.25)',
-                  }}
+                  className={`h-px transition-all duration-300 ease-in-out group-hover:w-[52px] group-hover:bg-accent ${
+                    isActive ? 'w-[52px] bg-accent' : 'w-6 bg-text-primary/25'
+                  }`}
                 />
                 <span
-                  className="text-[10px] font-bold uppercase tracking-[3px] transition-colors duration-300"
-                  style={{ color: isActive ? '#F0EAD6' : 'rgba(240,234,214,0.4)' }}
+                  className={`text-[10px] font-bold uppercase tracking-[3px] transition-colors duration-300 group-hover:text-text-primary ${
+                    isActive ? 'text-text-primary' : 'text-text-primary/40'
+                  }`}
                 >
                   {t(key)}
                 </span>
