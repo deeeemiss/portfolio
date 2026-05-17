@@ -15,8 +15,8 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     id: 'ntt',
-    dateRange: '2024 — Presente',
-    dateRangeEn: '2024 — Present',
+    dateRange: 'Giu 2024 — Presente',
+    dateRangeEn: 'Jun 2024 — Present',
     role: 'Software Developer',
     company: 'NTT Data',
     companyUrl: 'https://it.nttdata.com',
