@@ -19,8 +19,8 @@
   },
   "about": {
     "title": "Chi sono",
-    "bio1": "Sviluppatore software italiano con un approccio full-stack e una naturale curiosità per tutto ciò che riguarda l'informatica. Frontend con Vue, React e Angular, backend con C# e Kotlin — ma anche React Native quando il progetto lo chiede. Appassionato di AI e automazioni, tinkering con Raspberry Pi, hardware e tutto ciò che si può smontare e rimontare meglio di prima.",
-    "bio2": "Sul lato creativo: video editing, color grading e riprese aeree con drone. Quando non scrivo codice, probabilmente sto montando un video o volando da qualche parte."
+    "bio1": "Sviluppatore software con diploma ITS in Front-End Development e tre anni di esperienza su stack full-stack — frontend con Vue, React e Angular, backend con C# e Kotlin, mobile con React Native. Ho lavorato in team Agile per clienti enterprise da NTT Data, sviluppato piattaforme wellness back-end in AlphaWaves, e completato stage formativi in MSC Technology Italy e nel settore e-commerce.",
+    "bio2": "Fuori dal codice: video editing, color grading e riprese aeree con drone. Vicepresidente e operatore APR della Protezione Civile di Saluggia. Curioso per natura — dai Raspberry Pi agli LLM, se si può smontare e rimontare meglio, lo faccio."
   },
   "skills": {
     "title": "Competenze",
@@ -32,7 +32,8 @@
     "view_all": "Vedi tutti"
   },
   "experience": {
-    "title": "Esperienza"
+    "title": "Esperienza",
+    "view_cv": "Vedi curriculum"
   },
   "creative": {
     "title": "Lavori Creativi"

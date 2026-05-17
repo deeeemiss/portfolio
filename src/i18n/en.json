@@ -19,8 +19,8 @@
   },
   "about": {
     "title": "About me",
-    "bio1": "Italian software developer with a full-stack mindset and a genuine curiosity for everything tech. Frontend with Vue, React and Angular, backend with C# and Kotlin — plus React Native when the project calls for it. Passionate about AI, automations, Raspberry Pi tinkering, and anything that can be taken apart and put back together better.",
-    "bio2": "On the creative side: video editing, color grading and aerial drone footage. When I'm not writing code, I'm probably cutting a video or flying somewhere."
+    "bio1": "Software developer with an ITS diploma in Front-End Development and three years of experience across a full-stack range — frontend with Vue, React and Angular, backend with C# and Kotlin, mobile with React Native. I've worked in Agile teams for enterprise clients at NTT Data, built wellness platform backends at AlphaWaves, and completed formative internships at MSC Technology Italy and in the e-commerce sector.",
+    "bio2": "Outside of code: video editing, color grading and aerial drone footage. Vice President and UAV operator at the Civil Protection of Saluggia. Curious by nature — from Raspberry Pi to LLMs, if it can be taken apart and put back together better, I'll try it."
   },
   "skills": {
     "title": "Skills",
@@ -32,7 +32,8 @@
     "view_all": "View all"
   },
   "experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "view_cv": "View résumé"
   },
   "creative": {
     "title": "Creative Work"

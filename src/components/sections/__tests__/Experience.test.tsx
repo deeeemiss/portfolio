@@ -29,7 +29,7 @@ describe('Experience section', () => {
   it('renders tech tags for first experience', () => {
     render(<Experience />)
     expect(screen.getByText('Angular')).toBeTruthy()
-    expect(screen.getByText('C#')).toBeTruthy()
+    expect(screen.getAllByText('C#').length).toBeGreaterThan(0)
   })
 
   it('renders IT description when language is IT', () => {
@@ -39,7 +39,7 @@ describe('Experience section', () => {
 
   it('shows date ranges', () => {
     render(<Experience />)
-    expect(screen.getByText('2023 — Presente')).toBeTruthy()
+    expect(screen.getByText('2024 — Presente')).toBeTruthy()
     expect(screen.getByText('2021 — 2023')).toBeTruthy()
   })
 })
