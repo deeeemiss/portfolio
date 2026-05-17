@@ -78,15 +78,26 @@ export function Experience() {
         ))}
       </div>
 
-      <a
-        href={isEn ? '/cv-en.pdf' : '/cv-it.pdf'}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-6 inline-flex items-center gap-2 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors group"
-      >
-        {t('experience.view_cv')}
-        <ArrowUpRight size={13} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
-      </a>
+      <div className="mt-6 flex flex-wrap gap-6">
+        <a
+          href={isEn ? '/cv-en.pdf' : '/cv-it.pdf'}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors group"
+        >
+          {t('experience.view_cv')}
+          <ArrowUpRight size={13} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/sebastiano-demichelis"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors group"
+        >
+          {t('experience.view_linkedin')}
+          <ArrowUpRight size={13} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+        </a>
+      </div>
     </section>
   )
 }
