@@ -22,23 +22,22 @@ export function Skills() {
       </h2>
 
       {/* Tab selector */}
-      <div className="flex gap-1 p-1 bg-bg-surface rounded-xl w-fit mb-8">
+      <div className="flex gap-1 p-1 bg-bg-surface border border-text-primary/10 rounded-xl w-fit mb-8">
         {tabs.map(({ key, label }) => (
           <button
             key={key}
             onClick={() => setTab(key)}
             className={`relative px-5 py-1.5 text-[10px] font-bold uppercase tracking-widest rounded-lg transition-colors duration-200 ${
-              tab === key ? 'text-bg-base' : 'text-text-primary/55 hover:text-text-primary'
+              tab === key ? 'text-bg-base' : 'text-text-primary/45 hover:text-text-primary'
             }`}
           >
             {tab === key && (
               <motion.div
                 layoutId="tab-pill"
                 className="absolute inset-0 bg-accent rounded-lg"
-                style={{ zIndex: -1 }}
               />
             )}
-            {label}
+            <span className="relative z-10">{label}</span>
           </button>
         ))}
       </div>
