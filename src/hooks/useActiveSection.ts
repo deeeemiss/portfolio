@@ -14,7 +14,7 @@ export function useActiveSection(sectionIds: string[]): string {
         const el = document.getElementById(ids[i])
         if (!el) continue
         const top = el.getBoundingClientRect().top
-        if (top <= window.innerHeight * 0.4 && top > bestTop) {
+        if (top <= window.innerHeight * 0.5 && top > bestTop) {
           bestTop = top
           current = ids[i]
         }
