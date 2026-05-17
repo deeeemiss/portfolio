@@ -20,8 +20,7 @@ vi.mock('../LanguageSwitcher', () => ({
 describe('Sidebar', () => {
   it('renders the name', () => {
     render(<Sidebar />)
-    expect(screen.getByText('Sebastiano')).toBeTruthy()
-    expect(screen.getByText('Demichelis')).toBeTruthy()
+    expect(screen.getByText('Sebastiano Demichelis')).toBeTruthy()
   })
 
   it('renders all nav links', () => {
