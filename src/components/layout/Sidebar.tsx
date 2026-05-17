@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { useActiveSection } from '../../hooks/useActiveSection'
 
-const SECTION_IDS = ['about', 'experience', 'skills', 'projects'] as const
+const SECTION_IDS = ['about', 'experience', 'projects'] as const
 type SectionId = (typeof SECTION_IDS)[number]
 const SECTION_IDS_ARRAY: string[] = [...SECTION_IDS]
 
@@ -10,7 +10,6 @@ const NAV_ITEMS: { id: SectionId; key: string }[] = [
   { id: 'about', key: 'nav.about' },
   { id: 'experience', key: 'nav.experience' },
   { id: 'projects', key: 'nav.projects' },
-  { id: 'skills', key: 'nav.skills' },
 ]
 
 interface SocialLink {
