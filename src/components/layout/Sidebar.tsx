@@ -101,7 +101,7 @@ export function Sidebar() {
             <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
               <path d={path} />
             </svg>
-            <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 group-hover/tip:opacity-100 transition-opacity duration-200">
+            <span className="pointer-events-none absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-md bg-bg-surface border border-text-primary/10 px-2.5 py-1 text-[11px] font-medium text-text-primary/70 opacity-0 translate-y-1 group-hover/tip:opacity-100 group-hover/tip:translate-y-0 transition-all duration-200">
               {label}
             </span>
           </a>
