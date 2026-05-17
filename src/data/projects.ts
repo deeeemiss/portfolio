@@ -1,6 +1,8 @@
 export interface Project {
   id: string
   title: string
+  year: number
+  madeAt?: string
   description: string
   descriptionEn?: string
   tech: string[]
@@ -13,6 +15,8 @@ export const projects: Project[] = [
   {
     id: 'foosball',
     title: 'FOOSBALL',
+    year: 2024,
+    madeAt: 'NTT Data',
     description:
       'App mobile per la gestione di tornei di calcio balilla. Classifiche real-time, profili giocatori e notifiche push.',
     descriptionEn:
@@ -23,6 +27,7 @@ export const projects: Project[] = [
   {
     id: 'lupus-app',
     title: 'Lupus in Tavola',
+    year: 2023,
     description:
       'App iOS e Android per il gioco da tavolo Lupus. Gestione ruoli, timer e sessioni di gioco.',
     descriptionEn:
@@ -32,6 +37,7 @@ export const projects: Project[] = [
   {
     id: 'binario',
     title: 'Binario',
+    year: 2023,
     description:
       'App per consultare gli orari dei treni italiani con ricerca in tempo reale e notifiche di partenza.',
     descriptionEn:

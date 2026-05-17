@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen } from '@testing-library/react'
+import { MemoryRouter } from 'react-router-dom'
 import { Projects } from '../Projects'
 import { projects } from '../../../data/projects'
 
@@ -16,34 +17,26 @@ vi.mock('../../ui/ProjectCard', () => ({
   ),
 }))
 
-vi.mock('framer-motion', () => ({
-  motion: {
-    div: ({ children, ...props }: React.HTMLAttributes<HTMLDivElement>) => (
-      <div {...props}>{children}</div>
-    ),
-  },
-  AnimatePresence: ({ children }: { children: React.ReactNode }) => <>{children}</>,
-}))
 
 describe('Projects section', () => {
   it('renders first 3 projects', () => {
-    render(<Projects />)
+    render(<MemoryRouter><Projects /></MemoryRouter>)
     const cards = screen.getAllByTestId('project-card')
     expect(cards.length).toBe(Math.min(3, projects.length))
   })
 
   it('renders the section label', () => {
-    render(<Projects />)
+    render(<MemoryRouter><Projects /></MemoryRouter>)
     expect(screen.getByText('projects.title')).toBeTruthy()
   })
 
   it('renders FOOSBALL project', () => {
-    render(<Projects />)
+    render(<MemoryRouter><Projects /></MemoryRouter>)
     expect(screen.getByText('FOOSBALL')).toBeTruthy()
   })
 
   it('renders the view all button', () => {
-    render(<Projects />)
+    render(<MemoryRouter><Projects /></MemoryRouter>)
     expect(screen.getByText(/Vedi tutti|View all|projects\.view_all/)).toBeTruthy()
   })
 })

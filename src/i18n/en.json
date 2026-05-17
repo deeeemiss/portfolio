@@ -43,5 +43,15 @@
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"
+  },
+  "archive": {
+    "title": "All Projects",
+    "subtitle": "A collection of everything I have worked on.",
+    "back": "Sebastiano Demichelis",
+    "col_year": "Year",
+    "col_project": "Project",
+    "col_made_at": "Made at",
+    "col_built_with": "Built with",
+    "col_link": "Link"
   }
 }
