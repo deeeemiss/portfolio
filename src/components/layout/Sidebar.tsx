@@ -84,7 +84,7 @@ export function Sidebar() {
             href={href}
             target={href.startsWith('mailto') ? undefined : '_blank'}
             rel={href.startsWith('mailto') ? undefined : 'noopener noreferrer'}
-            className="flex items-center gap-3 text-text-primary/40 hover:text-accent transition-colors duration-200 group"
+            className="flex items-center gap-3 text-text-primary/65 hover:text-accent transition-colors duration-200 group"
           >
             <Icon size={18} />
             <span className="text-[12px] font-medium tracking-wide">{label}</span>
