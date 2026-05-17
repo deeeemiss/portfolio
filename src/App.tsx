@@ -4,7 +4,6 @@ import { About } from './components/sections/About'
 import { Experience } from './components/sections/Experience'
 import { Skills } from './components/sections/Skills'
 import { Projects } from './components/sections/Projects'
-import { CreativeWork } from './components/sections/CreativeWork'
 
 export default function App() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 })
@@ -30,7 +29,6 @@ export default function App() {
           <Experience />
           <Skills />
           <Projects />
-          <CreativeWork />
         </main>
       </div>
     </div>
