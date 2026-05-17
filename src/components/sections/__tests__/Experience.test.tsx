@@ -40,6 +40,5 @@ describe('Experience section', () => {
   it('shows date ranges', () => {
     render(<Experience />)
     expect(screen.getByText('2024 — Presente')).toBeTruthy()
-    expect(screen.getByText('2021 — 2023')).toBeTruthy()
   })
 })

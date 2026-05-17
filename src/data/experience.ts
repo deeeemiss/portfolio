@@ -48,16 +48,5 @@ export const experiences: Experience[] = [
     descriptionEn:
       'Internship across two internal projects: digital signage board (UX/UI design + CMS) and UI refactor with modern minimal design. Agile team using SCSS, HTML and JavaScript; exposure to C# and Azure DevOps.',
     tech: ['HTML', 'SCSS', 'JavaScript', 'C#', 'Agile', 'UX/UI Design'],
-  },
-  {
-    id: 'freelance',
-    dateRange: '2021 — 2023',
-    dateRangeEn: '2021 — 2023',
-    role: 'Freelance',
-    description:
-      'Siti web su misura, e-commerce Shopify, app mobile con React Native. Video production e color grading per brand locali e creator.',
-    descriptionEn:
-      'Custom web projects, Shopify e-commerce, React Native mobile apps. Video production and color grading for local brands and creators.',
-    tech: ['React Native', 'Vue', 'Shopify', 'Magento', 'DaVinci Resolve'],
-  },
+  }
 ]
