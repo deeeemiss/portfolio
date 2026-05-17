@@ -17,12 +17,20 @@ export function Experience() {
         {experiences.map(exp => (
           <motion.div
             key={exp.id}
-            className="flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-default"
+            className="group flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-default"
             whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
             transition={{ duration: 0.2 }}
           >
-            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 md:w-[152px] md:min-w-[152px] md:pt-0.5 flex-shrink-0">
-              {exp.dateRange}
+            <div className="text-[10px] font-semibold uppercase tracking-[1px] text-text-primary/30 md:w-[152px] md:min-w-[152px] md:pt-0.5 flex-shrink-0 flex flex-col gap-2">
+              <span>{isEn && exp.dateRangeEn ? exp.dateRangeEn : exp.dateRange}</span>
+              {exp.logoUrl && (
+                <img
+                  src={exp.logoUrl}
+                  alt={exp.company}
+                  className="h-5 w-auto object-contain object-left opacity-30 group-hover:opacity-55 transition-opacity duration-200"
+                  style={exp.logoUrl.endsWith('.png') ? { filter: 'brightness(0) invert(1)' } : {}}
+                />
+              )}
             </div>
 
             <div className="flex-1 min-w-0">

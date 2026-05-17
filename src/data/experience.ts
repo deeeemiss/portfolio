@@ -7,6 +7,7 @@ export interface Experience {
   companyUrl?: string
   description: string
   descriptionEn: string
+  logoUrl?: string
   tech: string[]
 }
 
@@ -18,6 +19,7 @@ export const experiences: Experience[] = [
     role: 'Software Developer',
     company: 'NTT Data',
     companyUrl: 'https://it.nttdata.com',
+    logoUrl: '/logos/ntt-data.svg',
     description:
       'Sviluppo frontend e mobile per clienti enterprise in contesti Agile. App React Native per gestione tornei foosball con classifiche real-time e notifiche push. Integrazioni API REST e architetture Angular + .NET.',
     descriptionEn:
@@ -30,6 +32,7 @@ export const experiences: Experience[] = [
     dateRangeEn: 'Oct 2023 — Apr 2024',
     role: 'Full-stack Developer',
     company: 'AlphaWaves',
+    logoUrl: '/logos/alphawaves.png',
     description:
       'Sviluppo back-end di una piattaforma benessere in team di quattro persone. Progettazione dei layer di dati e interfacciamento con il front-end. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
     descriptionEn:
@@ -43,6 +46,7 @@ export const experiences: Experience[] = [
     role: 'Junior Developer Intern',
     company: 'MSC Technology Italy',
     companyUrl: 'https://www.msctechnology.com',
+    logoUrl: '/logos/msc-technology.svg',
     description:
       'Stage su due progetti interni: digital signage board (UX/UI design + CMS) e refactor UI di un applicativo con design moderno e minimal. Lavoro in team Agile con SCSS, HTML e JavaScript; esposizione a C# e Azure DevOps.',
     descriptionEn:
