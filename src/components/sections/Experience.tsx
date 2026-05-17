@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { ExternalLink, ArrowUpRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { experiences } from '../../data/experience'
 
@@ -44,10 +44,13 @@ export function Experience() {
                         href={exp.companyUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-text-primary hover:text-accent transition-colors inline-flex items-center gap-1 group"
+                        className="text-text-primary hover:text-accent transition-colors inline-flex items-center gap-1 group/co"
                       >
                         {exp.company}
-                        <ExternalLink size={12} className="opacity-0 group-hover:opacity-100 transition-opacity text-accent" />
+                        <ArrowUpRight
+                          size={12}
+                          className="opacity-0 group-hover/co:opacity-100 group-hover/co:translate-x-0.5 group-hover/co:-translate-y-0.5 transition-all duration-200 text-accent"
+                        />
                       </a>
                     ) : (
                       <span>{exp.company}</span>
