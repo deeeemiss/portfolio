@@ -32,6 +32,7 @@ export const experiences: Experience[] = [
     dateRangeEn: 'Oct 2023 — Apr 2024',
     role: 'Full-stack Developer',
     company: 'AlphaWaves',
+    companyUrl: 'https://www.awaves.it',
     logoUrl: '/logos/alphawaves.png',
     description:
       'Sviluppo back-end di una piattaforma benessere in team di quattro persone. Progettazione dei layer di dati e interfacciamento con il front-end. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
@@ -45,7 +46,7 @@ export const experiences: Experience[] = [
     dateRangeEn: 'Feb 2023 — Sep 2023',
     role: 'Junior Developer Intern',
     company: 'MSC Technology Italy',
-    companyUrl: 'https://www.msctechnology.com',
+    companyUrl: 'https://msc-technology.com',
     logoUrl: '/logos/msc-technology.svg',
     description:
       'Stage su due progetti interni: digital signage board (UX/UI design + CMS) e refactor UI di un applicativo con design moderno e minimal. Lavoro in team Agile con SCSS, HTML e JavaScript; esposizione a C# e Azure DevOps.',
