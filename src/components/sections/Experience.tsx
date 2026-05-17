@@ -15,8 +15,11 @@ export function Experience() {
 
       <div className="flex flex-col gap-1">
         {experiences.map(exp => (
-          <motion.div
+          <motion.a
             key={exp.id}
+            href={exp.companyUrl ?? undefined}
+            target={exp.companyUrl ? '_blank' : undefined}
+            rel={exp.companyUrl ? 'noopener noreferrer' : undefined}
             className="group flex flex-col md:flex-row gap-1 md:gap-6 p-4 rounded-xl border border-transparent cursor-default"
             whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
             transition={{ duration: 0.2 }}
@@ -39,22 +42,15 @@ export function Experience() {
                 {exp.company && (
                   <>
                     <span className="text-text-primary/40">·</span>
-                    {exp.companyUrl ? (
-                      <a
-                        href={exp.companyUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-text-primary hover:text-accent transition-colors inline-flex items-center gap-1 group/co"
-                      >
+                    <span className="inline-flex items-center gap-1">
                         {exp.company}
-                        <ArrowUpRight
-                          size={12}
-                          className="opacity-0 group-hover/co:opacity-100 group-hover/co:translate-x-0.5 group-hover/co:-translate-y-0.5 transition-all duration-200 text-accent"
-                        />
-                      </a>
-                    ) : (
-                      <span>{exp.company}</span>
-                    )}
+                        {exp.companyUrl && (
+                          <ArrowUpRight
+                            size={12}
+                            className="opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 text-accent"
+                          />
+                        )}
+                      </span>
                   </>
                 )}
               </div>
@@ -74,7 +70,7 @@ export function Experience() {
                 ))}
               </div>
             </div>
-          </motion.div>
+          </motion.a>
         ))}
       </div>
 
