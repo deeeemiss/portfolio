@@ -29,7 +29,8 @@
   },
   "projects": {
     "title": "Progetti",
-    "view_all": "Vedi tutti"
+    "view_all": "Vedi tutti",
+    "view_github": "Profilo GitHub"
   },
   "experience": {
     "title": "Esperienza rilevante",

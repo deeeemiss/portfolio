@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight } from 'lucide-react'
+import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { ProjectCard } from '../ui/ProjectCard'
 import { projects } from '../../data/projects'
@@ -22,13 +22,24 @@ export function Projects() {
         ))}
       </div>
 
-      <Link
-        to="/archive"
-        className="mt-6 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors flex items-center gap-2 group"
-      >
-        {t('projects.view_all')}
-        <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
-      </Link>
+      <div className="mt-6 flex flex-wrap gap-6">
+        <Link
+          to="/archive"
+          className="inline-flex items-center gap-2 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors group"
+        >
+          {t('projects.view_all')}
+          <ArrowRight size={12} className="group-hover:translate-x-1 transition-transform" />
+        </Link>
+        <a
+          href="https://github.com/deeeemiss"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-[11px] font-semibold text-accent/70 hover:text-accent uppercase tracking-[2px] transition-colors group"
+        >
+          {t('projects.view_github')}
+          <ArrowUpRight size={13} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+        </a>
+      </div>
     </section>
   )
 }
