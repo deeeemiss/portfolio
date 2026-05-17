@@ -47,7 +47,7 @@ export const experiences: Experience[] = [
     role: 'Junior Developer Intern',
     company: 'MSC Technology Italy',
     companyUrl: 'https://msc-technology.com',
-    logoUrl: '/logos/msc-technology.svg',
+    logoUrl: '/logos/msc-technology.png',
     description:
       'Stage su due progetti interni: digital signage board (UX/UI design + CMS) e refactor UI di un applicativo con design moderno e minimal. Lavoro in team Agile con SCSS, HTML e JavaScript; esposizione a C# e Azure DevOps.',
     descriptionEn:
