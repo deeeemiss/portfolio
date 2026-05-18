@@ -1,4 +1,9 @@
 @import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/inter/800.css";
 
 @theme {
   --color-bg-base: #0A1628;
@@ -8,8 +13,7 @@
   --color-accent-light: #4DFFD2;
   --color-text-primary: #F0EAD6;
 
-  --font-family-serif: "New York", ui-serif, Georgia, "Times New Roman", serif;
-  --font-family-sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+  --font-family-sans: "Inter", system-ui, sans-serif;
 }
 
 @layer base {
@@ -19,7 +23,7 @@
   body {
     background-color: #0A1628;
     color: #F0EAD6;
-    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", system-ui, sans-serif;
+    font-family: "Inter", system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
