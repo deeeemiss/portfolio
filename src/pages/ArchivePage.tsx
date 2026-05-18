@@ -17,7 +17,7 @@ export function ArchivePage() {
         {t('archive.back')}
       </Link>
 
-      <h1 className="font-serif italic text-4xl md:text-5xl font-bold text-text-primary mb-3">
+      <h1 className="font-sans text-4xl md:text-5xl font-bold text-text-primary mb-3">
         {t('archive.title')}
       </h1>
       <p className="text-text-primary/40 text-sm mb-16">{t('archive.subtitle')}</p>
