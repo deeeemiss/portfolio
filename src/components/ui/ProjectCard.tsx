@@ -32,7 +32,7 @@ export function ProjectCard({ project }: Props) {
       {/* Info */}
       <div className="flex-1 min-w-0">
         <div className="flex items-start justify-between gap-2">
-          <h3 className="font-serif italic text-[14px] font-bold text-text-primary leading-tight">
+          <h3 className="font-sans text-[14px] font-bold text-text-primary leading-tight">
             {project.title}
           </h3>
           {project.link && (
