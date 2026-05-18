@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
-import { Mail, Globe, Code2 } from 'lucide-react'
+import { AtSign, Globe, Code2 } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const LINKS = [
   {
-    Icon: Mail,
+    Icon: AtSign,
     labelKey: 'contact.email' as const,
     href: 'mailto:sebastianodemichelis@gmail.com',
     value: 'sebastianodemichelis@gmail.com',
