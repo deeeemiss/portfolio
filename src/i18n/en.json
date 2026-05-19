@@ -9,7 +9,7 @@
     "aria_label": "Sections"
   },
   "profile": {
-    "tagline": "Full-stack dev passionate about AI, automation, and aerial drone footage."
+    "tagline": "Software developer working mainly on web and mobile — for a living and because I enjoy it."
   },
   "hero": {
     "role": "Software Developer & Creative",
@@ -19,8 +19,8 @@
   },
   "about": {
     "title": "About me",
-    "bio1": "Software developer with an ITS diploma in Front-End Development and three years of experience across a full-stack range — frontend with Vue, React and Angular, backend with C# and Kotlin, mobile with React Native. I've worked in Agile teams for enterprise clients at NTT Data, built wellness platform backends at AlphaWaves, and completed formative internships at MSC Technology Italy and in the e-commerce sector.",
-    "bio2": "Outside of code: video editing, color grading and aerial drone footage. Vice President and UAV operator at the Civil Protection of Saluggia. Curious by nature — from Raspberry Pi to LLMs, if it can be taken apart and put back together better, I'll try it."
+    "bio1": "I work as an R&D Software Engineer at NTT Data on Angular, .NET and React Native projects for enterprise clients. I also have experience on the backend side — Kotlin, C# — and mobile, built through a startup and a couple of internships.",
+    "bio2": "Outside work: licensed APR drone pilot and Vice President of the Civil Protection of Saluggia. Curious by nature — from Raspberry Pi to LLMs, if it can be taken apart and put back together better, I'll try it."
   },
   "skills": {
     "title": "Skills",
@@ -42,14 +42,14 @@
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "Have a project in mind? Let's talk.",
+    "subtitle": "Have a project, an idea, or just want to talk? Write to me.",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"
   },
   "archive": {
     "title": "All Projects",
-    "subtitle": "A collection of everything I have worked on.",
+    "subtitle": "Everything I've worked on, from 2022 to today.",
     "back": "Sebastiano Demichelis",
     "col_year": "Year",
     "col_project": "Project",

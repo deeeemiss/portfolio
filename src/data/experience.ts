@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Sviluppo frontend e mobile per clienti enterprise in contesti Agile. App React Native per gestione tornei foosball con classifiche real-time e notifiche push. Integrazioni API REST e architetture Angular + .NET.',
+      'Sviluppo di progetti enterprise Angular + .NET e un\'app React Native per tornei interni in team Agile. Lavoro su test framework e automazione, con esposizione a Linux CLI e Docker.',
     descriptionEn:
-      'Frontend and mobile development for enterprise clients in Agile environments. React Native app for foosball tournament management with real-time leaderboards and push notifications. REST API integrations and Angular + .NET architectures.',
+      'Enterprise Angular + .NET projects and an internal React Native app for foosball tournaments in an Agile team. Work on test frameworks and automation, with exposure to Linux CLI and Docker.',
     tech: ['Angular', 'React Native', 'TypeScript', 'C#', '.NET', 'Azure DevOps'],
   },
   {
@@ -37,9 +37,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/alphawaves.png',
     logoHeightClass: 'h-10',
     description:
-      'Sviluppo back-end di una piattaforma benessere in team di quattro persone. Progettazione dei layer di dati e interfacciamento con il front-end. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
+      'Sviluppo back-end di una piattaforma benessere in team di quattro persone, usando Kotlin, Spring Boot, MongoDB e MySQL. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
     descriptionEn:
-      'Back-end development of a wellness platform in a four-person team. Data layer design and front-end integration. Subsequent corporate website rebuild with WordPress, Elementor and custom JavaScript.',
+      'Back-end development of a wellness platform in a four-person team using Kotlin, Spring Boot, MongoDB and MySQL. Subsequent corporate website rebuild with WordPress, Elementor and custom JavaScript.',
     tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'WordPress', 'JavaScript'],
   },
   {
@@ -52,9 +52,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/msc-technology.png',
     logoHeightClass: 'h-7',
     description:
-      'Stage su due progetti interni: digital signage board (UX/UI design + CMS) e refactor UI di un applicativo con design moderno e minimal. Lavoro in team Agile con SCSS, HTML e JavaScript; esposizione a C# e Azure DevOps.',
+      'Stage su due progetti interni: digital signage board progettata da zero (UX/UI + CMS) e refactor UI con design moderno e minimal in team Agile con SCSS, HTML e JavaScript. Prima esposizione a C# e Azure DevOps.',
     descriptionEn:
-      'Internship across two internal projects: digital signage board (UX/UI design + CMS) and UI refactor with modern minimal design. Agile team using SCSS, HTML and JavaScript; exposure to C# and Azure DevOps.',
+      'Internship across two internal projects: digital signage board designed from scratch (UX/UI + CMS) and a UI refactor with modern minimal design in an Agile team using SCSS, HTML and JavaScript. First exposure to C# and Azure DevOps.',
     tech: ['HTML', 'SCSS', 'JavaScript', 'C#', 'Agile', 'UX/UI Design'],
   }
 ]

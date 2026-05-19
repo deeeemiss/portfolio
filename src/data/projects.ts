@@ -18,9 +18,9 @@ export const projects: Project[] = [
     year: 2024,
     madeAt: 'NTT Data',
     description:
-      'App mobile per la gestione di tornei di calcio balilla. Classifiche real-time, profili giocatori e notifiche push.',
+      'App mobile per la gestione di tornei di calcio balilla. Classifiche real-time, profili giocatori, notifiche push e sistema di matchmaking.',
     descriptionEn:
-      'Mobile app for foosball tournament management. Real-time leaderboards, player profiles and push notifications.',
+      'Mobile app for foosball tournament management. Real-time leaderboards, player profiles, push notifications and matchmaking system.',
     tech: ['React Native', 'Expo', 'Firebase', 'TypeScript'],
     featured: true,
   },
@@ -29,9 +29,9 @@ export const projects: Project[] = [
     title: 'Lupus in Tavola',
     year: 2023,
     description:
-      'App iOS e Android per il gioco da tavolo Lupus. Gestione ruoli, timer e sessioni di gioco.',
+      'App iOS e Android per il gioco da tavolo Lupus in Tavola. Gestione ruoli, timer di gioco e sessioni con cronologia partite.',
     descriptionEn:
-      'iOS and Android app for the Lupus board game. Role management, timers and game sessions.',
+      'iOS and Android companion app for the Lupus in Tavola board game. Role management, game timers and sessions with match history.',
     tech: ['Capacitor', 'Vue', 'TypeScript'],
   },
   {
@@ -39,9 +39,9 @@ export const projects: Project[] = [
     title: 'Binario',
     year: 2023,
     description:
-      'App per consultare gli orari dei treni italiani con ricerca in tempo reale e notifiche di partenza.',
+      'App per orari e partenze dei treni italiani, con ricerca in tempo reale e notifiche di partenza.',
     descriptionEn:
-      'Italian train schedule app with real-time search and departure notifications.',
+      'Italian train schedule app with real-time departure search and push notifications.',
     tech: ['React Native', 'Expo', 'Node.js'],
   },
 ]
