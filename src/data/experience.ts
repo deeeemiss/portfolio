@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Sviluppo di progetti enterprise Angular + .NET e un\'app React Native per tornei interni in team Agile. Lavoro su test framework e automazione, con esposizione a Linux CLI e Docker.',
+      'Sviluppo di progetti enterprise Angular + .NET in team Agile. Lavoro su test framework e automazione, con esposizione a Linux CLI e Docker.',
     descriptionEn:
-      'Enterprise Angular + .NET projects and an internal React Native app for foosball tournaments in an Agile team. Work on test frameworks and automation, with exposure to Linux CLI and Docker.',
+      'Enterprise Angular + .NET projects in an Agile team. Work on test frameworks and automation, with exposure to Linux CLI and Docker.',
     tech: ['Angular', 'React Native', 'TypeScript', 'C#', '.NET', 'Azure DevOps'],
   },
   {

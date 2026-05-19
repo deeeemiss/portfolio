@@ -16,11 +16,10 @@ export const projects: Project[] = [
     id: 'foosball',
     title: 'FOOSBALL',
     year: 2024,
-    madeAt: 'NTT Data',
     description:
-      'App mobile per la gestione di tornei di calcio balilla. Classifiche real-time, profili giocatori, notifiche push e sistema di matchmaking.',
+      'App mobile per la gestione di tornei di calcio balilla, sviluppata con un collega. Classifiche real-time, profili giocatori, notifiche push e sistema di matchmaking.',
     descriptionEn:
-      'Mobile app for foosball tournament management. Real-time leaderboards, player profiles, push notifications and matchmaking system.',
+      'Mobile app for foosball tournament management, built with a colleague. Real-time leaderboards, player profiles, push notifications and matchmaking system.',
     tech: ['React Native', 'Expo', 'Firebase', 'TypeScript'],
     featured: true,
   },
