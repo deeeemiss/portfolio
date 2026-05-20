@@ -55,6 +55,6 @@ export const experiences: Experience[] = [
       'Ho lavorato a due progetti interni: una bacheca digitale seguita dal design fino allo sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. Qui ho messo le mani su HTML, SCSS e jQuery e ho imparato a lavorare in un team con metodologie Agile.',
     descriptionEn:
       'I worked on two internal projects: a digital board I followed from design through development, and the UI redesign of an HR application. This is where I got hands-on with HTML, SCSS and jQuery, and learned to work in a team running Agile.',
-    tech: ['HTML', 'SCSS', 'jQuery', 'C#', 'MySQL', 'Azure DevOps', 'Figma', 'Agile', 'UX/UI Design'],
+    tech: ['HTML', 'SCSS', 'jQuery', 'C#', 'MySQL', 'MagicINFO', 'Azure DevOps', 'Figma', 'Agile', 'UX/UI Design'],
   }
 ]
