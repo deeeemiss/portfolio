@@ -3,7 +3,7 @@ export const codeSkills: string[] = [
   'TypeScript', 'JavaScript', 'HTML', 'CSS/SCSS',
   'Bootstrap', 'Tailwind', 'NativeWind', 'C#', '.NET', 'Kotlin', 'Spring Boot',
   'Node.js', 'MongoDB', 'MySQL',
-  'REST API', 'Keycloak', 'Git', 'Azure DevOps', 'Agile',
+  'REST API', 'RxJS', 'Keycloak', 'Git', 'Azure DevOps', 'Agile',
   'Expo', 'WordPress', 'Shopify', 'AI Tools',
 ]
 
