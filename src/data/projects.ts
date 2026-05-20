@@ -31,7 +31,7 @@ export const projects: Project[] = [
       'Companion app per Lupus in Tavola, pensata per chi fa da narratore: gestisce ruoli, turni e fasi di gioco direttamente da iOS e Android, così non serve più tenere tutto a mente o su carta. Sta crescendo per permettere anche partite in multigiocatore, restando sempre una companion del gioco da tavolo.',
     descriptionEn:
       'A companion app for the party game Werewolf (Lupus in Tavola), made for whoever runs the game: it handles roles, turns and game phases straight from iOS and Android, so you no longer have to keep everything in your head or on paper. It\'s growing to support multiplayer games too, while staying a companion to the tabletop game.',
-    tech: ['Capacitor', 'Vue', 'TypeScript'],
+    tech: ['React', 'Capacitor', 'TypeScript', 'Firebase', 'Tailwind'],
   },
   {
     id: 'binario',
@@ -41,6 +41,6 @@ export const projects: Project[] = [
       'Un\'app per controllare gli orari dei treni in modo veloce e senza fronzoli. Cerchi la tratta e vedi subito partenze, arrivi e binari.',
     descriptionEn:
       'An app to check train schedules quickly, with no clutter. Search a route and you immediately get departures, arrivals and platforms.',
-    tech: ['React Native', 'Expo', 'Node.js'],
+    tech: ['React Native', 'Expo', 'TypeScript', 'NativeWind'],
   },
 ]
