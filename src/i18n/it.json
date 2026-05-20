@@ -19,7 +19,7 @@
   },
   "about": {
     "title": "Chi sono",
-    "bio1": "Lavoro come Software Developer nel reparto R&D di NTT Data. Mi muovo su tutto lo stack: frontend in Angular e React Native, backend in .NET, e quando serve scendo fino al codice C che gira sui microcontrollori. Mi è capitato di tirare su un gestionale da zero — database, backend e interfaccia — di occuparmi del frontend di un chatbot AI e di sistemare vulnerabilità di sicurezza su software già in produzione. Quando affronto un problema non mi fermo alla prima soluzione che funziona: cerco quella giusta.",
+    "bio1": "Lavoro come Software Developer nel reparto R&D di NTT Data. Mi muovo su tutto lo stack: frontend in Angular e Vue, backend in .NET, e quando serve scendo fino al codice C che gira sui microcontrollori. Mi è capitato di tirare su un gestionale da zero — database, backend e interfaccia — di occuparmi del frontend di un chatbot AI e di sistemare vulnerabilità di sicurezza su software già in produzione. Quando affronto un problema non mi fermo alla prima soluzione che funziona: cerco quella giusta.",
     "bio2": "Fuori dal lavoro mi piace raccontare con le immagini. Pilotando il drone faccio riprese aeree, poi monto e curo il color grading dei video. È un modo diverso di mettere insieme i pezzi rispetto al codice, ma alla fine il gusto è lo stesso: partire da materiale grezzo e tirarne fuori qualcosa di pulito."
   },
   "skills": {
