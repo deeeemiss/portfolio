@@ -20,7 +20,7 @@ export const projects: Project[] = [
       'Un\'app per organizzare e gestire tornei di calcio balilla: iscrizioni, tabelloni e punteggi. È un progetto personale che ho costruito insieme a un collega nel tempo libero, nato dalle nostre partite a biliardino in ufficio.',
     descriptionEn:
       'An app to organize and run foosball tournaments: sign-ups, brackets and scores. It\'s a personal project I built together with a colleague in our spare time, born out of our office foosball matches.',
-    tech: ['React', 'Capacitor', 'Firebase', 'TypeScript'],
+    tech: ['React', 'Capacitor', 'Firebase'],
     featured: true,
   },
   {
