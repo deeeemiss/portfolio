@@ -2,7 +2,7 @@ export const codeSkills: string[] = [
   'Vue', 'Vuetify', 'React', 'Angular', 'PrimeNG', 'React Native',
   'TypeScript', 'JavaScript', 'HTML', 'CSS/SCSS',
   'Bootstrap', 'Tailwind', 'NativeWind', 'C#', '.NET', 'Kotlin', 'Spring Boot',
-  'Node.js', 'MongoDB', 'MySQL',
+  'Node.js', 'Entity Framework', 'MongoDB', 'MySQL', 'PostgreSQL', 'SQL Server',
   'REST API', 'RxJS', 'Keycloak', 'Git', 'Azure DevOps', 'Agile',
   'Expo', 'WordPress', 'Shopify', 'AI Tools',
 ]
