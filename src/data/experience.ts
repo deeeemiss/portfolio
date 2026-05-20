@@ -25,7 +25,7 @@ export const experiences: Experience[] = [
       'Nel reparto R&D mi occupo di progetti molto diversi tra loro. Ho sviluppato il frontend di applicazioni web per la gestione di PLC e di un chatbot AI per le risorse umane, costruito da zero un gestionale per flotte di veicoli — backend, frontend e modello del database — e sistemato vulnerabilità di sicurezza su applicazioni già in produzione. In parallelo lavoro a una dashboard per scooter scritta in C, pensata per girare su un microcontrollore con un piccolo display.',
     descriptionEn:
       'In the R&D team I work on projects that are wildly different from one another. I\'ve built the frontend for web apps managing PLCs and an AI chatbot for HR, created a vehicle-fleet management tool from scratch — backend, frontend and database model — and fixed security vulnerabilities on software already in production. On the side I\'m building a scooter dashboard written in C, made to run on a microcontroller with a small display.',
-    tech: ['Angular', 'Vue.js', 'TypeScript', 'Python', 'C#', '.NET', 'C'],
+    tech: ['Angular', 'Vue.js', 'Vuetify', 'TypeScript', 'Python', 'C#', '.NET', 'C', 'MongoDB', 'MySQL', 'REST API', 'SCSS', 'UX/UI Design'],
   },
   {
     id: 'alphawaves',
