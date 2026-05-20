@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Sviluppo di progetti enterprise Angular + .NET in team Agile. Lavoro su test framework e automazione, con esposizione a Linux CLI e Docker.',
+      'Nel reparto R&D mi occupo di progetti molto diversi tra loro. Ho sviluppato il frontend di applicazioni web per la gestione di PLC e di un chatbot AI per le risorse umane, costruito da zero un gestionale per flotte di veicoli — backend, frontend e modello del database — e sistemato vulnerabilità di sicurezza su applicazioni già in produzione. In parallelo lavoro a una dashboard per scooter scritta in C, pensata per girare su un microcontrollore con un piccolo display.',
     descriptionEn:
-      'Enterprise Angular + .NET projects in an Agile team. Work on test frameworks and automation, with exposure to Linux CLI and Docker.',
+      'In the R&D team I work on projects that are wildly different from one another. I\'ve built the frontend for web apps managing PLCs and an AI chatbot for HR, created a vehicle-fleet management tool from scratch — backend, frontend and database model — and fixed security vulnerabilities on apps already in production. On the side I\'m building a scooter dashboard written in C, made to run on a microcontroller with a small display.',
     tech: ['Angular', 'React Native', 'TypeScript', 'C#', '.NET', 'Azure DevOps'],
   },
   {
@@ -37,9 +37,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/alphawaves.png',
     logoHeightClass: 'h-10',
     description:
-      'Sviluppo back-end di una piattaforma benessere in team di quattro persone, usando Kotlin, Spring Boot, MongoDB e MySQL. Successivo refactor del sito aziendale con WordPress, Elementor e JavaScript custom.',
+      'Ho lavorato al backend di un\'applicazione per il benessere commissionata da un\'azienda esterna, usando Kotlin e Spring con database MySQL e MongoDB. Mi sono occupato di collegare le API REST al frontend in Angular e di gestire l\'autenticazione con i JWT. È qui che ho capito davvero come è strutturato un backend e come scorrono i dati tra i vari layer.',
     descriptionEn:
-      'Back-end development of a wellness platform in a four-person team using Kotlin, Spring Boot, MongoDB and MySQL. Subsequent corporate website rebuild with WordPress, Elementor and custom JavaScript.',
+      'I worked on the backend of a wellness app commissioned by an external company, using Kotlin and Spring with MySQL and MongoDB databases. I connected the REST APIs to the Angular frontend and handled authentication with JWTs. This is where I really understood how a backend is structured and how data flows between the layers.',
     tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'WordPress', 'JavaScript'],
   },
   {
@@ -52,9 +52,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/msc-technology.png',
     logoHeightClass: 'h-7',
     description:
-      'Stage su due progetti interni: digital signage board progettata da zero (UX/UI + CMS) e refactor UI con design moderno e minimal in team Agile con SCSS, HTML e JavaScript. Prima esposizione a C# e Azure DevOps.',
+      'Ho lavorato a due progetti interni: una bacheca digitale seguita dal design fino allo sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. Qui ho messo le mani su HTML, SCSS e jQuery e ho imparato a lavorare in un team con metodologie Agile.',
     descriptionEn:
-      'Internship across two internal projects: digital signage board designed from scratch (UX/UI + CMS) and a UI refactor with modern minimal design in an Agile team using SCSS, HTML and JavaScript. First exposure to C# and Azure DevOps.',
+      'I worked on two internal projects: a digital board I followed from design through development, and the UI redesign of an HR application. This is where I got hands-on with HTML, SCSS and jQuery, and learned to work in a team running Agile.',
     tech: ['HTML', 'SCSS', 'JavaScript', 'C#', 'Agile', 'UX/UI Design'],
   }
 ]

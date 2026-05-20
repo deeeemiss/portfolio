@@ -9,18 +9,18 @@
     "aria_label": "Sezioni"
   },
   "profile": {
-    "tagline": "Sviluppo software per lavoro e per passione, principalmente su web e mobile."
+    "tagline": "Sviluppo app e interfacce, dal browser fino al microcontrollore."
   },
   "hero": {
-    "role": "Software Developer & Creative",
-    "stack": "Vue · React · Kotlin · C# · Drone · Video",
+    "role": "Software Developer",
+    "stack": "Angular · React Native · .NET",
     "cta_contact": "Contattami",
     "cta_work": "Vedi i miei lavori"
   },
   "about": {
     "title": "Chi sono",
-    "bio1": "Lavoro come R&D Software Engineer in NTT Data su progetti Angular, .NET e React Native per clienti enterprise. Ho esperienza anche sul lato backend — Kotlin, C# — e mobile, maturata tra startup e qualche stage formativo.",
-    "bio2": "Sono uno sviluppatore, mi piace fare siti web e progetti che mi vengono in testa, ma quando non sono attaccato a un pc mi piace giocare ai videogiochi, fare sport, esplorare la natura e il mondo o uscire con gli amici."
+    "bio1": "Lavoro come Software Developer nel reparto R&D di NTT Data. Mi muovo su tutto lo stack: frontend in Angular e React Native, backend in .NET, e quando serve scendo fino al codice C che gira sui microcontrollori. Mi è capitato di tirare su un gestionale da zero — database, backend e interfaccia — di occuparmi del frontend di un chatbot AI e di sistemare vulnerabilità di sicurezza su software già in produzione. Quando affronto un problema non mi fermo alla prima soluzione che funziona: cerco quella giusta.",
+    "bio2": "Fuori dal lavoro mi piace raccontare con le immagini. Pilotando il drone faccio riprese aeree, poi monto e curo il color grading dei video. È un modo diverso di mettere insieme i pezzi rispetto al codice, ma alla fine il gusto è lo stesso: partire da materiale grezzo e tirarne fuori qualcosa di pulito."
   },
   "skills": {
     "title": "Competenze",
@@ -42,14 +42,14 @@
   },
   "contact": {
     "title": "Parliamone",
-    "subtitle": "Hai un progetto, un'idea o vuoi solo fare due chiacchiere? Scrivimi.",
+    "subtitle": "Hai un progetto in mente o vuoi solo fare due chiacchiere? Scrivimi.",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"
   },
   "archive": {
     "title": "Archivio Progetti",
-    "subtitle": "Tutto quello su cui ho lavorato, dal 2022 ad oggi.",
+    "subtitle": "Una raccolta dei progetti su cui ho lavorato, dentro e fuori dall'ufficio.",
     "back": "Sebastiano Demichelis",
     "col_year": "Anno",
     "col_project": "Progetto",

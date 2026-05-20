@@ -11,18 +11,18 @@ export const creativeWorks: CreativeWork[] = [
     id: 'aerial',
     title: 'Aerial Cinematography',
     description:
-      'Riprese drone in tutta Italia — paesaggi, eventi, real estate. Color grading professionale in DaVinci Resolve.',
+      'Riprese aeree con il drone. Cerco l\'inquadratura e il movimento giusto per dare profondità a paesaggi, coste e luoghi che mi capita di esplorare.',
     descriptionEn:
-      'Drone footage across Italy — landscapes, events, real estate. Professional color grading in DaVinci Resolve.',
+      'Aerial footage shot with a drone. I look for the right framing and movement to give depth to landscapes, coastlines and the places I happen to explore.',
     tags: ['Drone', 'DaVinci Resolve', '4K', 'Color Grading'],
   },
   {
     id: 'video',
     title: 'Video Production',
     description:
-      'Brand video, documentari brevi e montaggio per creator. Dalla ripresa al prodotto finito.',
+      'Montaggio ed editing video, dai brand video ai progetti personali. Mi occupo del taglio, del ritmo e del color grading per dare al filmato il look giusto.',
     descriptionEn:
-      'Brand videos, short documentaries and editing for creators. From shooting to final product.',
+      'Video editing and post-production, from brand videos to personal projects. I handle the cut, the pacing and the color grading to give the footage the right look.',
     tags: ['Video Editing', 'Adobe Premiere', 'DaVinci Resolve'],
   },
 ]

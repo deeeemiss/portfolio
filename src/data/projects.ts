@@ -17,9 +17,9 @@ export const projects: Project[] = [
     title: 'FOOSBALL',
     year: 2024,
     description:
-      'App mobile per la gestione di tornei di calcio balilla, sviluppata con un collega. Classifiche real-time, profili giocatori, notifiche push e sistema di matchmaking.',
+      'Un\'app per organizzare e gestire tornei di calcio balilla: iscrizioni, tabelloni e punteggi. È un progetto personale che ho costruito insieme a un collega nel tempo libero, nato dalle nostre partite a biliardino in ufficio.',
     descriptionEn:
-      'Mobile app for foosball tournament management, built with a colleague. Real-time leaderboards, player profiles, push notifications and matchmaking system.',
+      'An app to organize and run foosball tournaments: sign-ups, brackets and scores. It\'s a personal project I built together with a colleague in our spare time, born out of our office foosball matches.',
     tech: ['React Native', 'Expo', 'Firebase', 'TypeScript'],
     featured: true,
   },
@@ -28,9 +28,9 @@ export const projects: Project[] = [
     title: 'Lupus in Tavola',
     year: 2023,
     description:
-      'App iOS e Android per il gioco da tavolo Lupus in Tavola. Gestione ruoli, timer di gioco e sessioni con cronologia partite.',
+      'Companion app per Lupus in Tavola, pensata per chi fa da narratore: gestisce ruoli, turni e fasi di gioco direttamente da iOS e Android, così non serve più tenere tutto a mente o su carta. Sta crescendo per permettere anche partite in multigiocatore, restando sempre una companion del gioco da tavolo.',
     descriptionEn:
-      'iOS and Android companion app for the Lupus in Tavola board game. Role management, game timers and sessions with match history.',
+      'A companion app for the party game Werewolf (Lupus in Tavola), made for whoever runs the game: it handles roles, turns and game phases straight from iOS and Android, so you no longer have to keep everything in your head or on paper. It\'s growing to support multiplayer games too, while staying a companion to the tabletop game.',
     tech: ['Capacitor', 'Vue', 'TypeScript'],
   },
   {
@@ -38,9 +38,9 @@ export const projects: Project[] = [
     title: 'Binario',
     year: 2023,
     description:
-      'App per orari e partenze dei treni italiani, con ricerca in tempo reale e notifiche di partenza.',
+      'Un\'app per controllare gli orari dei treni in modo veloce e senza fronzoli. Cerchi la tratta e vedi subito partenze, arrivi e binari.',
     descriptionEn:
-      'Italian train schedule app with real-time departure search and push notifications.',
+      'An app to check train schedules quickly, with no clutter. Search a route and you immediately get departures, arrivals and platforms.',
     tech: ['React Native', 'Expo', 'Node.js'],
   },
 ]

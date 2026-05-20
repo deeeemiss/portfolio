@@ -9,18 +9,18 @@
     "aria_label": "Sections"
   },
   "profile": {
-    "tagline": "Software developer working mainly on web and mobile — for a living and because I enjoy it."
+    "tagline": "I build apps and interfaces, from the browser all the way down to the microcontroller."
   },
   "hero": {
-    "role": "Software Developer & Creative",
-    "stack": "Vue · React · Kotlin · C# · Drone · Video",
+    "role": "Software Developer",
+    "stack": "Angular · React Native · .NET",
     "cta_contact": "Get in touch",
     "cta_work": "View my work"
   },
   "about": {
     "title": "About me",
-    "bio1": "I work as an R&D Software Engineer at NTT Data on Angular, .NET and React Native projects for enterprise clients. I also have experience on the backend side — Kotlin, C# — and mobile, built through a startup and a couple of internships.",
-    "bio2": "I'm a developer — I like building websites and projects that come to mind, but when I'm not at a pc I enjoy playing video games, doing sport, exploring nature and the world, or hanging out with my friends."
+    "bio1": "I'm a Software Developer in NTT Data's R&D team. I work across the whole stack: Angular and React Native on the frontend, .NET on the backend, and when it's needed I go all the way down to the C code running on microcontrollers. I've built a management tool from scratch — database, backend and UI — handled the frontend of an AI chatbot, and patched security vulnerabilities on software already in production. When I hit a problem, I don't settle for the first thing that works: I look for the right solution.",
+    "bio2": "Outside of work I like telling stories with visuals. I fly a drone for aerial footage, then edit and color grade the videos myself. It's a different way of putting the pieces together than code, but the payoff is the same: start with raw material and turn it into something clean."
   },
   "skills": {
     "title": "Skills",
@@ -41,15 +41,15 @@
     "title": "Creative Work"
   },
   "contact": {
-    "title": "Get in touch",
-    "subtitle": "Have a project, an idea, or just want to talk? Write to me.",
+    "title": "Let's talk",
+    "subtitle": "Got a project in mind, or just want to chat? Drop me a line.",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"
   },
   "archive": {
     "title": "All Projects",
-    "subtitle": "Everything I've worked on, from 2022 to today.",
+    "subtitle": "A collection of the projects I've worked on, in and out of the office.",
     "back": "Sebastiano Demichelis",
     "col_year": "Year",
     "col_project": "Project",
