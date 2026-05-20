@@ -40,7 +40,7 @@ export const experiences: Experience[] = [
       'Ho lavorato al backend di un\'applicazione per il benessere commissionata da un\'azienda esterna, usando Kotlin e Spring con database MySQL e MongoDB. Mi sono occupato di collegare le API REST al frontend in Angular e di gestire l\'autenticazione con i JWT. È qui che ho capito davvero come è strutturato un backend e come scorrono i dati tra i vari layer.',
     descriptionEn:
       'I worked on the backend of a wellness app commissioned by an external company, using Kotlin and Spring with MySQL and MongoDB databases. I connected the REST APIs to the Angular frontend and handled authentication with JWTs. This is where I really understood how a backend is structured and how data flows between the layers.',
-    tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'Angular', 'REST API'],
+    tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'Angular', 'REST API', 'JWT', 'Docker', 'Linux'],
   },
   {
     id: 'msc',
@@ -55,6 +55,6 @@ export const experiences: Experience[] = [
       'Ho lavorato a due progetti interni: una bacheca digitale seguita dal design fino allo sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. Qui ho messo le mani su HTML, SCSS e jQuery e ho imparato a lavorare in un team con metodologie Agile.',
     descriptionEn:
       'I worked on two internal projects: a digital board I followed from design through development, and the UI redesign of an HR application. This is where I got hands-on with HTML, SCSS and jQuery, and learned to work in a team running Agile.',
-    tech: ['HTML', 'SCSS', 'jQuery', 'Agile', 'UX/UI Design'],
+    tech: ['HTML', 'SCSS', 'jQuery', 'C#', 'MySQL', 'MagicINFO', 'Azure DevOps', 'Figma', 'Agile', 'UX/UI Design'],
   }
 ]

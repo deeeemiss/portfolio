@@ -3,8 +3,8 @@ export const codeSkills: string[] = [
   'TypeScript', 'JavaScript', 'HTML', 'CSS/SCSS',
   'Bootstrap', 'Tailwind', 'NativeWind', 'C#', '.NET', 'Kotlin', 'Spring Boot',
   'Node.js', 'Entity Framework', 'MongoDB', 'MySQL', 'PostgreSQL', 'SQL Server',
-  'REST API', 'RxJS', 'Keycloak', 'Git', 'Azure DevOps', 'Agile',
-  'Expo', 'WordPress', 'Shopify', 'AI Tools',
+  'REST API', 'JWT', 'RxJS', 'Keycloak', 'Docker', 'Linux', 'Git', 'Azure DevOps', 'Agile',
+  'Expo', 'WordPress', 'Shopify', 'MagicINFO', 'AI Tools',
 ]
 
 export const creativeSkills: string[] = [
