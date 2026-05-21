@@ -1,3 +1,10 @@
+export interface ProjectLinks {
+  appStore?: string | null
+  playStore?: string | null
+  website?: string | null
+  github?: string | null
+}
+
 export interface Project {
   id: string
   title: string
@@ -6,10 +13,12 @@ export interface Project {
   description: string
   descriptionEn?: string
   tech: string[]
+  icon?: string
   image?: string
   link?: string
   featured?: boolean
   platform?: 'mobile' | 'web'
+  links?: ProjectLinks
 }
 
 export const projects: Project[] = [
@@ -23,6 +32,7 @@ export const projects: Project[] = [
       'An app to organize and run foosball tournaments: sign-ups, brackets and scores. It\'s a personal project I built together with a colleague in our spare time, born out of our office foosball matches.',
     tech: ['React', 'Capacitor', 'Firebase'],
     featured: true,
+    links: { appStore: null, playStore: null },
   },
   {
     id: 'lupus-app',
@@ -33,6 +43,7 @@ export const projects: Project[] = [
     descriptionEn:
       'A companion app for the party game Werewolf (Lupus in Tavola), made for whoever runs the game: it handles roles, turns and game phases straight from iOS and Android, so you no longer have to keep everything in your head or on paper. It\'s growing to support multiplayer games too, while staying a companion to the tabletop game.',
     tech: ['React', 'Capacitor', 'TypeScript', 'Firebase', 'Tailwind'],
+    links: { appStore: null, playStore: null },
   },
   {
     id: 'binario',
@@ -43,5 +54,6 @@ export const projects: Project[] = [
     descriptionEn:
       'An app to check train schedules quickly, with no clutter. Search a route and you immediately get departures, arrivals and platforms.',
     tech: ['React Native', 'Expo', 'TypeScript', 'NativeWind'],
+    links: { appStore: null, playStore: null },
   },
 ]
