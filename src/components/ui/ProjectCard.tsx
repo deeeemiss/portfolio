@@ -7,6 +7,25 @@ interface Props {
   project: Project
 }
 
+function PhoneFrame({ image, title }: { image?: string; title: string }) {
+  return (
+    <div className="relative flex-shrink-0 w-[52px] h-[96px] rounded-[12px] border-2 border-white/15 bg-bg-elevated overflow-hidden shadow-md">
+      {/* speaker */}
+      <div className="absolute top-[6px] left-1/2 -translate-x-1/2 w-[14px] h-[3px] rounded-full bg-white/20 z-10" />
+      {/* screen */}
+      <div className="absolute inset-0 top-[14px] bottom-[10px] overflow-hidden">
+        {image ? (
+          <img src={image} alt={title} className="w-full h-full object-cover object-top" />
+        ) : (
+          <div className="w-full h-full bg-gradient-to-b from-bg-elevated to-bg-base" />
+        )}
+      </div>
+      {/* home bar */}
+      <div className="absolute bottom-[4px] left-1/2 -translate-x-1/2 w-[18px] h-[2px] rounded-full bg-white/20 z-10" />
+    </div>
+  )
+}
+
 export function ProjectCard({ project }: Props) {
   const { i18n } = useTranslation()
   const description =
@@ -16,19 +35,10 @@ export function ProjectCard({ project }: Props) {
 
   return (
     <motion.div
-      className="flex gap-4 p-4 rounded-xl border border-transparent cursor-default"
+      className="flex items-center gap-4 p-4 rounded-xl border border-transparent cursor-default"
       whileHover={{ backgroundColor: 'rgba(22,51,82,0.55)', borderColor: 'rgba(29,233,182,0.12)' }}
       transition={{ duration: 0.2 }}
     >
-      {/* Thumbnail */}
-      <div className="w-[90px] h-[62px] rounded-md flex-shrink-0 overflow-hidden bg-bg-elevated">
-        {project.image ? (
-          <img src={project.image} alt={project.title} className="w-full h-full object-cover" />
-        ) : (
-          <div className="w-full h-full bg-gradient-to-br from-bg-elevated to-bg-base" />
-        )}
-      </div>
-
       {/* Info */}
       <div className="flex-1 min-w-0">
         <div className="flex items-start justify-between gap-2">
@@ -63,6 +73,9 @@ export function ProjectCard({ project }: Props) {
           ))}
         </div>
       </div>
+
+      {/* iPhone mockup */}
+      <PhoneFrame image={project.image} title={project.title} />
     </motion.div>
   )
 }

@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Nel reparto R&D mi occupo di progetti molto diversi tra loro. Ho sviluppato il frontend di applicazioni web per la gestione di PLC e di un chatbot AI per le risorse umane, costruito da zero un gestionale per flotte di veicoli — backend, frontend e modello del database — e sistemato vulnerabilità di sicurezza su applicazioni già in produzione. In parallelo lavoro a una dashboard per scooter scritta in C, pensata per girare su un microcontrollore con un piccolo display.',
+      'Nel reparto R&D mi occupo di progetti molto diversi tra loro. Ho sviluppato il frontend di applicazioni web per la gestione di PLC e di un chatbot per le risorse umane, costruito da zero un gestionale per flotte di veicoli curandone sia il database che l\'applicazione, e sistemato vulnerabilità di sicurezza su software già in produzione. In parallelo lavoro a una dashboard per scooter, pensata per girare su un microcontrollore con un piccolo display.',
     descriptionEn:
-      'In the R&D team I work on projects that are wildly different from one another. I\'ve built the frontend for web apps managing PLCs and an AI chatbot for HR, created a vehicle-fleet management tool from scratch — backend, frontend and database model — and fixed security vulnerabilities on software already in production. On the side I\'m building a scooter dashboard written in C, made to run on a microcontroller with a small display.',
+      'In the R&D team I work on projects that are wildly different from one another. I\'ve built the frontend for web apps managing PLCs and an HR chatbot, created a vehicle-fleet management tool from scratch — handling both its database and the application itself — and fixed security vulnerabilities on software already in production. On the side I\'m building a scooter dashboard, made to run on a microcontroller with a small display.',
     tech: ['Angular', 'Vue.js', 'Vuetify', 'PrimeNG', 'TypeScript', 'Python', 'C#', '.NET', 'C', 'Entity Framework', 'MongoDB', 'MySQL', 'PostgreSQL', 'SQL Server', 'REST API', 'Keycloak', 'RxJS', 'Tailwind', 'SCSS', 'UX/UI Design'],
   },
   {
@@ -37,24 +37,24 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/alphawaves.png',
     logoHeightClass: 'h-10',
     description:
-      'Ho lavorato al backend di un\'applicazione per il benessere commissionata da un\'azienda esterna, usando Kotlin e Spring con database MySQL e MongoDB. Mi sono occupato di collegare le API REST al frontend in Angular e di gestire l\'autenticazione con i JWT. È qui che ho capito davvero come è strutturato un backend e come scorrono i dati tra i vari layer.',
+      'Ho lavorato al backend di un\'applicazione per il benessere commissionata da un\'azienda esterna. Mi sono occupato di collegare le API al frontend e di gestire l\'autenticazione degli utenti. È il progetto in cui ho capito davvero come funziona un backend e come si muovono i dati tra i vari layer.',
     descriptionEn:
-      'I worked on the backend of a wellness app commissioned by an external company, using Kotlin and Spring with MySQL and MongoDB databases. I connected the REST APIs to the Angular frontend and handled authentication with JWTs. This is where I really understood how a backend is structured and how data flows between the layers.',
+      'I worked on the backend of a wellness app commissioned by an external company. I took care of wiring the APIs to the frontend and managing user authentication. It\'s the project where I really understood how a backend works and how data moves between the various layers.',
     tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'Angular', 'REST API', 'JWT', 'Docker', 'Linux'],
   },
   {
     id: 'msc',
     dateRange: 'Feb 2023 — Set 2023',
     dateRangeEn: 'Feb 2023 — Sep 2023',
-    role: 'Junior Developer Intern',
+    role: 'Front End Developer',
     company: 'MSC Technology Italy',
     companyUrl: 'https://msc-technology.com',
     logoUrl: '/logos/msc-technology.png',
     logoHeightClass: 'h-7',
     description:
-      'Ho lavorato a due progetti interni: una bacheca digitale seguita dal design fino allo sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. Qui ho messo le mani su HTML, SCSS e jQuery e ho imparato a lavorare in un team con metodologie Agile.',
+      'Ho lavorato a due progetti interni: una bacheca digitale che ho seguito sia nel design che nello sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. È stata la prima volta in cui mi sono inserito in un team vero e ho imparato a portare avanti il lavoro in modo organizzato.',
     descriptionEn:
-      'I worked on two internal projects: a digital board I followed from design through development, and the UI redesign of an HR application. This is where I got hands-on with HTML, SCSS and jQuery, and learned to work in a team running Agile.',
+      'I worked on two internal projects: a digital board I handled across both design and development, and the UI redesign of an HR application. It was the first time I properly slotted into a real team and learned to carry work forward in an organized way.',
     tech: ['HTML', 'SCSS', 'jQuery', 'C#', 'MySQL', 'MagicINFO', 'Azure DevOps', 'Figma', 'Agile', 'UX/UI Design'],
   }
 ]
