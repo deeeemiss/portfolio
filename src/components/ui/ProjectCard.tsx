@@ -9,7 +9,7 @@ interface Props {
 
 function PhoneFrame({ image, title }: { image?: string; title: string }) {
   return (
-    <div className="relative flex-shrink-0 w-[52px] h-[96px] rounded-[12px] border-2 border-white/15 bg-bg-elevated overflow-hidden shadow-md">
+    <div className="relative flex-shrink-0 w-[72px] h-[128px] rounded-[14px] border-2 border-white/15 bg-bg-elevated overflow-hidden shadow-md">
       {/* speaker */}
       <div className="absolute top-[6px] left-1/2 -translate-x-1/2 w-[14px] h-[3px] rounded-full bg-white/20 z-10" />
       {/* screen */}
@@ -75,7 +75,9 @@ export function ProjectCard({ project }: Props) {
       </div>
 
       {/* iPhone mockup */}
-      <PhoneFrame image={project.image} title={project.title} />
+      <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">
+        <PhoneFrame image={project.image} title={project.title} />
+      </div>
     </motion.div>
   )
 }
