@@ -10,9 +10,7 @@ interface Props {
 function PhoneFrame({ image, title }: { image?: string; title: string }) {
   return (
     <div className="relative flex-shrink-0 w-[72px] h-[128px] rounded-[14px] border-2 border-white/15 bg-bg-elevated overflow-hidden shadow-md">
-      {/* speaker */}
       <div className="absolute top-[6px] left-1/2 -translate-x-1/2 w-[14px] h-[3px] rounded-full bg-white/20 z-10" />
-      {/* screen */}
       <div className="absolute inset-0 top-[14px] bottom-[10px] overflow-hidden">
         {image ? (
           <img src={image} alt={title} className="w-full h-full object-cover object-top" />
@@ -20,8 +18,33 @@ function PhoneFrame({ image, title }: { image?: string; title: string }) {
           <div className="w-full h-full bg-gradient-to-b from-bg-elevated to-bg-base" />
         )}
       </div>
-      {/* home bar */}
       <div className="absolute bottom-[4px] left-1/2 -translate-x-1/2 w-[18px] h-[2px] rounded-full bg-white/20 z-10" />
+    </div>
+  )
+}
+
+function MacFrame({ image, title }: { image?: string; title: string }) {
+  return (
+    <div className="flex-shrink-0 flex flex-col items-center">
+      {/* screen */}
+      <div className="relative w-[130px] h-[82px] rounded-[6px] border-2 border-white/15 bg-bg-elevated overflow-hidden shadow-md">
+        {/* menubar */}
+        <div className="absolute top-0 left-0 right-0 h-[8px] bg-white/8 flex items-center px-1.5 gap-1 z-10">
+          <div className="w-[3px] h-[3px] rounded-full bg-white/25" />
+          <div className="w-[3px] h-[3px] rounded-full bg-white/25" />
+          <div className="w-[3px] h-[3px] rounded-full bg-white/25" />
+        </div>
+        <div className="absolute inset-0 top-[8px] overflow-hidden">
+          {image ? (
+            <img src={image} alt={title} className="w-full h-full object-cover object-top" />
+          ) : (
+            <div className="w-full h-full bg-gradient-to-b from-bg-elevated to-bg-base" />
+          )}
+        </div>
+      </div>
+      {/* base */}
+      <div className="w-[50px] h-[4px] bg-white/10 rounded-b-sm" />
+      <div className="w-[70px] h-[2px] bg-white/8 rounded-sm" />
     </div>
   )
 }
@@ -74,10 +97,16 @@ export function ProjectCard({ project }: Props) {
         </div>
       </div>
 
-      {/* iPhone mockup */}
-      <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">
-        <PhoneFrame image={project.image} title={project.title} />
-      </div>
+      {/* Device mockup */}
+      {project.platform === 'web' ? (
+        <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">
+          <MacFrame image={project.image} title={project.title} />
+        </div>
+      ) : (
+        <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">
+          <PhoneFrame image={project.image} title={project.title} />
+        </div>
+      )}
     </motion.div>
   )
 }

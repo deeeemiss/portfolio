@@ -9,6 +9,7 @@ export interface Project {
   image?: string
   link?: string
   featured?: boolean
+  platform?: 'mobile' | 'web'
 }
 
 export const projects: Project[] = [
