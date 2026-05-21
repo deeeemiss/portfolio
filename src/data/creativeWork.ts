@@ -20,9 +20,9 @@ export const creativeWorks: CreativeWork[] = [
     id: 'video',
     title: 'Video Production',
     description:
-      'Montaggio ed editing video, dai brand video ai progetti personali. Mi occupo del taglio, del ritmo e del color grading per dare al filmato il look giusto.',
+      'Montaggio ed editing video per brand e progetti personali. Mi occupo del taglio, del ritmo e del color grading per dare al filmato il look giusto.',
     descriptionEn:
-      'Video editing and post-production, from brand videos to personal projects. I handle the cut, the pacing and the color grading to give the footage the right look.',
+      'Video editing and post-production for brands and personal projects. I handle the cut, the pacing and the color grading to give the footage the right look.',
     tags: ['Video Editing', 'Adobe Premiere', 'DaVinci Resolve'],
   },
 ]
