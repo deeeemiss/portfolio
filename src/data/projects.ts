@@ -21,15 +21,21 @@ export interface Project {
   links?: ProjectLinks
 }
 
+export function isProjectReady(project: Project): boolean {
+  if (project.link) return true
+  if (project.links) return Object.values(project.links).some(v => typeof v === 'string')
+  return false
+}
+
 export const projects: Project[] = [
   {
     id: 'foosball',
     title: 'FOOSBALL',
     year: 2024,
     description:
-      'Un\'app per organizzare e gestire tornei di calcio balilla: iscrizioni, tabelloni e punteggi. È un progetto personale che ho costruito insieme a un collega nel tempo libero, nato dalle nostre partite a biliardino in ufficio.',
+      'App per organizzare e gestire tornei di calcio balilla: iscrizioni, tabelloni e punteggi in tempo reale. Progetto personale costruito insieme a un collega, nato dalle partite in ufficio.',
     descriptionEn:
-      'An app to organize and run foosball tournaments: sign-ups, brackets and scores. It\'s a personal project I built together with a colleague in our spare time, born out of our office foosball matches.',
+      'App for organizing and running foosball tournaments — sign-ups, brackets, and real-time scores. A personal project built together with a colleague, born out of office matches.',
     tech: ['React', 'Capacitor', 'Firebase'],
     featured: true,
     links: { appStore: null, playStore: null },
@@ -39,9 +45,9 @@ export const projects: Project[] = [
     title: 'Lupus in Tavola',
     year: 2023,
     description:
-      'Companion app per Lupus in Tavola, pensata per chi fa da narratore: gestisce ruoli, turni e fasi di gioco direttamente da iOS e Android, così non serve più tenere tutto a mente o su carta. Sta crescendo per permettere anche partite in multigiocatore, restando sempre una companion del gioco da tavolo.',
+      'Companion app per Lupus in Tavola, pensata per chi fa da narratore: gestisce ruoli, turni e fasi di gioco da iOS e Android. Modalità multigiocatore in sviluppo.',
     descriptionEn:
-      'A companion app for the party game Werewolf (Lupus in Tavola), made for whoever runs the game: it handles roles, turns and game phases straight from iOS and Android, so you no longer have to keep everything in your head or on paper. It\'s growing to support multiplayer games too, while staying a companion to the tabletop game.',
+      'Companion app for the party game Werewolf (Lupus in Tavola), built for whoever runs the game: manages roles, turns, and game phases on iOS and Android. Multiplayer mode in development.',
     tech: ['React', 'Capacitor', 'TypeScript', 'Firebase', 'Tailwind'],
     links: { appStore: null, playStore: null },
   },
@@ -50,9 +56,9 @@ export const projects: Project[] = [
     title: 'Binario',
     year: 2023,
     description:
-      'Un\'app per controllare gli orari dei treni in modo veloce e senza fronzoli. Cerchi la tratta e vedi subito partenze, arrivi e binari.',
+      'App per controllare gli orari dei treni in modo veloce, senza fronzoli. Cerca una tratta e vedi subito partenze, arrivi e binari.',
     descriptionEn:
-      'An app to check train schedules quickly, with no clutter. Search a route and you immediately get departures, arrivals and platforms.',
+      'App for checking train schedules quickly, without clutter. Search a route and instantly see departures, arrivals, and platforms.',
     tech: ['React Native', 'Expo', 'TypeScript', 'NativeWind'],
     links: { appStore: null, playStore: null },
   },

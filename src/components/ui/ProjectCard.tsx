@@ -133,9 +133,16 @@ export function ProjectCard({ project }: Props) {
         )}
 
         <div className="flex items-start justify-between gap-2">
-          <h3 className="font-sans text-[14px] font-bold text-text-primary leading-tight">
-            {project.title}
-          </h3>
+          <div className="flex items-center gap-2 flex-wrap">
+            <h3 className="font-sans text-[14px] font-bold text-text-primary leading-tight">
+              {project.title}
+            </h3>
+            {project.links && Object.values(project.links).every(v => v === null) && (
+              <span className="text-[10px] font-semibold tracking-wide text-accent/70 border border-accent/30 rounded-full px-2 py-0.5 leading-none">
+                coming soon
+              </span>
+            )}
+          </div>
           {project.link && (
             <a
               href={project.link}
