@@ -5,6 +5,8 @@ import './i18n'
 import './index.css'
 import App from './App'
 import { ArchivePage } from './pages/ArchivePage'
+import { CvPage } from './pages/CvPage'
+import { NotFoundPage } from './pages/NotFoundPage'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,6 +14,9 @@ createRoot(document.getElementById('root')!).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/archive" element={<ArchivePage />} />
+        <Route path="/cv" element={<CvPage />} />
+        <Route path="/404" element={<NotFoundPage />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
