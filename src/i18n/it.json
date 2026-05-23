@@ -19,8 +19,8 @@
   },
   "about": {
     "title": "Chi sono",
-    "bio1": "Lavoro come Software Developer nel reparto R&D di NTT Data. Mi muovo su tutto lo stack: frontend in Angular e Vue, backend in .NET, e quando serve scendo fino al codice C che gira sui microcontrollori. Mi è capitato di tirare su un gestionale da zero — database, backend e interfaccia — di occuparmi del frontend di un chatbot AI e di sistemare vulnerabilità di sicurezza su software già in produzione. Quando affronto un problema non mi fermo alla prima soluzione che funziona: cerco quella giusta.",
-    "bio2": "Fuori dal lavoro mi piace raccontare con le immagini. Pilotando il drone faccio riprese aeree, poi monto e curo il color grading dei video. È un modo diverso di mettere insieme i pezzi rispetto al codice, ma alla fine il gusto è lo stesso: partire da materiale grezzo e tirarne fuori qualcosa di pulito."
+    "bio1": "Sono uno sviluppatore a cui piace lavorare a qualsiasi livello dello stack — dall'interfaccia al database. Mi interessa che le cose funzionino bene, non che funzionino e basta, e rendo meglio quando c'è tempo per capire davvero il problema prima di buttarmi sulla soluzione. Attualmente lavoro nel reparto R&D di NTT Data, dove i progetti cambiano parecchio. Mi sono occupato del frontend di un chatbot HR e ho sistemato vulnerabilità di sicurezza su software già in produzione. Prima di NTT ho lavorato al backend di un'app per il benessere in AlphaWaves e alla UI di strumenti interni in MSC.",
+    "bio2": "Nel tempo libero costruisco app personali. Fuori dallo schermo passo il tempo con gli amici, sui campi da padel, a seguire la F1 o sul divano con il controller."
   },
   "skills": {
     "title": "Competenze",

@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Nel reparto R&D mi occupo di progetti molto diversi tra loro. Ho sviluppato il frontend di applicazioni web per la gestione di PLC e di un chatbot per le risorse umane, costruito da zero un gestionale per flotte di veicoli curandone sia il database che l\'applicazione, e sistemato vulnerabilità di sicurezza su software già in produzione. In parallelo lavoro a una dashboard per scooter, pensata per girare su un microcontrollore con un piccolo display.',
+      'Lavoro su progetti molto diversi nel reparto R&D: ho sviluppato il frontend di app web per la gestione di PLC e un chatbot per le risorse umane, risolto vulnerabilità di sicurezza su software in produzione e costruito da zero un gestionale per flotte di veicoli — database, backend e interfaccia. In parallelo sviluppo una dashboard embedded per scooter su microcontrollore.',
     descriptionEn:
-      'In the R&D team I work on projects that are wildly different from one another. I\'ve built the frontend for web apps managing PLCs and an HR chatbot, created a vehicle-fleet management tool from scratch — handling both its database and the application itself — and fixed security vulnerabilities on software already in production. On the side I\'m building a scooter dashboard, made to run on a microcontroller with a small display.',
+      'Work across a wide range of projects in the R&D team. Built the frontend of web apps for PLC management and an HR chatbot, resolved security vulnerabilities on production software, and developed a vehicle fleet management tool from the ground up — database, backend, and UI. Also building an embedded scooter dashboard for a microcontroller display.',
     tech: ['Angular', 'Vue.js', 'Vuetify', 'PrimeNG', 'TypeScript', 'Python', 'C#', '.NET', 'C', 'Entity Framework', 'MongoDB', 'MySQL', 'PostgreSQL', 'SQL Server', 'REST API', 'Keycloak', 'RxJS', 'Tailwind', 'SCSS', 'UX/UI Design'],
   },
   {
@@ -37,9 +37,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/alphawaves.png',
     logoHeightClass: 'h-10',
     description:
-      'Ho lavorato al backend di un\'applicazione per il benessere commissionata da un\'azienda esterna. Mi sono occupato di collegare le API al frontend e di gestire l\'autenticazione degli utenti. È il progetto in cui ho capito davvero come funziona un backend e come si muovono i dati tra i vari layer.',
+      'Lavorato al backend di un\'app per il benessere commissionata da un cliente esterno. Integrato le API con il frontend, gestita l\'autenticazione degli utenti e curato il flusso dei dati tra i layer dell\'applicazione.',
     descriptionEn:
-      'I worked on the backend of a wellness app commissioned by an external company. I took care of wiring the APIs to the frontend and managing user authentication. It\'s the project where I really understood how a backend works and how data moves between the various layers.',
+      'Worked on the backend of a wellness app commissioned by an external client. Integrated APIs with the frontend, managed user authentication, and handled data flow across the application layers.',
     tech: ['Kotlin', 'Spring Boot', 'MongoDB', 'MySQL', 'Angular', 'REST API', 'JWT', 'Docker', 'Linux'],
   },
   {
@@ -52,9 +52,9 @@ export const experiences: Experience[] = [
     logoUrl: '/logos/msc-technology.png',
     logoHeightClass: 'h-7',
     description:
-      'Ho lavorato a due progetti interni: una bacheca digitale che ho seguito sia nel design che nello sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane. È stata la prima volta in cui mi sono inserito in un team vero e ho imparato a portare avanti il lavoro in modo organizzato.',
+      'Lavorato a due progetti interni: una bacheca digitale seguita dal design fino allo sviluppo, e il redesign dell\'interfaccia di un\'applicazione per le risorse umane.',
     descriptionEn:
-      'I worked on two internal projects: a digital board I handled across both design and development, and the UI redesign of an HR application. It was the first time I properly slotted into a real team and learned to carry work forward in an organized way.',
+      'Worked on two internal projects: a digital signage board handled end-to-end from design to development, and a UI redesign of an HR application.',
     tech: ['HTML', 'SCSS', 'jQuery', 'C#', 'MySQL', 'MagicINFO', 'Azure DevOps', 'Figma', 'Agile', 'UX/UI Design'],
   }
 ]

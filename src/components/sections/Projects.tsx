@@ -2,13 +2,16 @@ import { Link } from 'react-router-dom'
 import { ArrowRight, ArrowUpRight } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 import { ProjectCard } from '../ui/ProjectCard'
-import { projects } from '../../data/projects'
+import { projects, isProjectReady } from '../../data/projects'
 
 const VISIBLE_COUNT = 3
 
 export function Projects() {
   const { t } = useTranslation()
-  const visible = projects.slice(0, VISIBLE_COUNT)
+  const readyProjects = projects.filter(isProjectReady)
+  const visible = readyProjects.slice(0, VISIBLE_COUNT)
+
+  if (readyProjects.length === 0) return null
 
   return (
     <section id="projects" className="scroll-mt-4">

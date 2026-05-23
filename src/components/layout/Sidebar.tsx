@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { LanguageSwitcher } from './LanguageSwitcher'
 import { useActiveSection } from '../../hooks/useActiveSection'
+import { projects, isProjectReady } from '../../data/projects'
 
 const SECTION_IDS = ['about', 'experience', 'projects'] as const
 type SectionId = (typeof SECTION_IDS)[number]
@@ -49,9 +50,12 @@ const SOCIAL_LINKS: SocialLink[] = [
   },
 ]
 
+const hasReadyProjects = projects.some(isProjectReady)
+
 export function Sidebar() {
   const { t } = useTranslation()
   const active = useActiveSection(SECTION_IDS_ARRAY)
+  const navItems = hasReadyProjects ? NAV_ITEMS : NAV_ITEMS.filter(i => i.id !== 'projects')
 
   return (
     <aside className="md:sticky md:top-0 md:h-screen md:w-[36%] md:flex-shrink-0 flex flex-col justify-between px-8 py-16 md:px-12 md:py-24">
@@ -71,7 +75,7 @@ Sebastiano Demichelis
 
         {/* Nav — hidden on mobile */}
         <nav className="hidden md:flex flex-col gap-1 mt-12" aria-label={t('nav.aria_label')}>
-          {NAV_ITEMS.map(({ id, key }) => {
+          {navItems.map(({ id, key }) => {
             const isActive = active === id
             return (
               <a
