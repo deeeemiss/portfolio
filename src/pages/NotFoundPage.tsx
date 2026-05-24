@@ -9,10 +9,10 @@ export function NotFoundPage() {
   return (
     <div className="bg-bg-base min-h-screen flex items-center justify-center px-8">
       <div className="flex flex-col items-start gap-6 max-w-sm">
-        <p className="text-[11px] font-bold uppercase tracking-[3px] text-accent">
+        <p className="font-sans text-4xl font-extrabold text-accent leading-tight">
           404
         </p>
-        <h1 className="font-sans text-4xl font-extrabold text-text-primary leading-tight">
+        <h1 className="text-[11px] font-bold uppercase tracking-[3px] text-text-primary">
           {isEn ? 'Page not found.' : 'Pagina non trovata.'}
         </h1>
         <p className="text-[14px] text-text-primary/45 leading-relaxed">
