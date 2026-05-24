@@ -19,6 +19,7 @@ const project: Project = {
   description: 'Descrizione italiana.',
   descriptionEn: 'English description.',
   tech: ['React', 'TypeScript'],
+  year: 2024,
 }
 
 const projectWithLink: Project = {
