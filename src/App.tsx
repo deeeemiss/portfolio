@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useCallback } from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { Analytics } from '@vercel/analytics/react'
 import { Sidebar } from './components/layout/Sidebar'
@@ -8,20 +8,24 @@ import { Projects } from './components/sections/Projects'
 import { Contact } from './components/sections/Contact'
 
 export default function App() {
-  const [mouse, setMouse] = useState({ x: 0, y: 0 })
+  const spotlightRef = useRef<HTMLDivElement>(null)
+
+  const handleMouseMove = useCallback((e: React.MouseEvent) => {
+    if (spotlightRef.current) {
+      spotlightRef.current.style.background = `radial-gradient(600px circle at ${e.clientX}px ${e.clientY}px, rgba(29,233,182,0.09), transparent 70%)`
+    }
+  }, [])
 
   return (
     <>
       <div
         className="relative bg-bg-base min-h-screen"
-        onMouseMove={e => setMouse({ x: e.clientX, y: e.clientY })}
+        onMouseMove={handleMouseMove}
       >
         {/* Spotlight overlay */}
         <div
+          ref={spotlightRef}
           className="pointer-events-none fixed inset-0 z-0"
-          style={{
-            background: `radial-gradient(600px circle at ${mouse.x}px ${mouse.y}px, rgba(29,233,182,0.09), transparent 70%)`,
-          }}
         />
 
         {/* Two-column layout */}
