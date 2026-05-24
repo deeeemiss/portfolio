@@ -22,9 +22,9 @@ export const experiences: Experience[] = [
     companyUrl: 'https://it.nttdata.com',
     logoUrl: '/logos/ntt-data.svg',
     description:
-      'Lavoro su progetti molto diversi nel reparto R&D: ho sviluppato il frontend di app web per la gestione di PLC e un chatbot per le risorse umane, risolto vulnerabilità di sicurezza su software in produzione e costruito da zero un gestionale per flotte di veicoli — database, backend e interfaccia. In parallelo sviluppo una dashboard embedded per scooter su microcontrollore.',
+      'Lavoro su progetti molto diversi nel reparto R&D: ho sviluppato il frontend di app web per la gestione di PLC e un chatbot su policy, welfare e documentazione aziendale, risolto vulnerabilità di sicurezza su software in produzione e realizzato un gestionale per flotte di veicoli. In parallelo sviluppo una dashboard embedded per scooter su microcontrollore.',
     descriptionEn:
-      'Work across a wide range of projects in the R&D team. Built the frontend of web apps for PLC management and an HR chatbot, resolved security vulnerabilities on production software, and developed a vehicle fleet management tool from the ground up — database, backend, and UI. Also building an embedded scooter dashboard for a microcontroller display.',
+      'Work across a wide range of projects in the R&D team. Built the frontend of web apps for PLC management and an internal chatbot on company policies, welfare, and documentation, resolved security vulnerabilities on production software, and delivered a vehicle fleet management tool end-to-end. Also building an embedded scooter dashboard for a microcontroller display.',
     tech: ['Angular', 'Vue.js', 'Vuetify', 'PrimeNG', 'TypeScript', 'Python', 'C#', '.NET', 'C', 'Entity Framework', 'MongoDB', 'MySQL', 'PostgreSQL', 'SQL Server', 'REST API', 'Keycloak', 'RxJS', 'Tailwind', 'SCSS', 'UX/UI Design'],
   },
   {
