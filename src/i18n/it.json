@@ -19,7 +19,7 @@
   },
   "about": {
     "title": "Chi sono",
-    "bio1": "Sono uno sviluppatore a cui piace lavorare a qualsiasi livello dello stack — dall'interfaccia al database. Mi interessa che le cose funzionino bene, non che funzionino e basta, e rendo meglio quando c'è tempo per capire davvero il problema prima di buttarmi sulla soluzione. Attualmente lavoro nel reparto R&D di NTT Data, dove i progetti cambiano parecchio. Mi sono occupato del frontend di un chatbot HR e ho sistemato vulnerabilità di sicurezza su software già in produzione. Prima di NTT ho lavorato al backend di un'app per il benessere in AlphaWaves e alla UI di strumenti interni in MSC.",
+    "bio1": "Sono uno sviluppatore a cui piace lavorare a qualsiasi livello dello stack — dall'interfaccia al database. Mi interessa che le cose funzionino bene, non che funzionino e basta, e rendo meglio quando c'è tempo per capire davvero il problema prima di buttarmi sulla soluzione. Attualmente lavoro nel reparto R&D di NTT Data, dove i progetti cambiano parecchio. Mi sono occupato del frontend di un chatbot su policy e documentazione aziendale e ho sistemato vulnerabilità di sicurezza su software già in produzione. Prima di NTT ho lavorato al backend di un'app per il benessere in AlphaWaves e alla UI di strumenti interni in MSC.",
     "bio2": "Nel tempo libero costruisco app personali. Fuori dallo schermo passo il tempo con gli amici, sui campi da padel, a seguire la F1 o sul divano con il controller."
   },
   "skills": {

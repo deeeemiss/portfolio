@@ -19,7 +19,7 @@
   },
   "about": {
     "title": "About me",
-    "bio1": "I'm a software developer comfortable working at any layer of the stack — frontend, backend, or somewhere in between. I care about building things that work well, not just things that technically work, and I do my best when there's room to actually understand the problem before jumping to a solution. I'm currently on the R&D team at NTT Data, where projects vary quite a bit. I've worked on the frontend of an HR chatbot and patched security vulnerabilities on software already in production. Before NTT, I worked on the backend of a wellness app at AlphaWaves and on the UI of internal tooling at MSC.",
+    "bio1": "I'm a software developer comfortable working at any layer of the stack — frontend, backend, or somewhere in between. I care about building things that work well, not just things that technically work, and I do my best when there's room to actually understand the problem before jumping to a solution. I'm currently on the R&D team at NTT Data, where projects vary quite a bit. I've worked on the frontend of an internal company chatbot and patched security vulnerabilities on software already in production. Before NTT, I worked on the backend of a wellness app at AlphaWaves and on the UI of internal tooling at MSC.",
     "bio2": "In my spare time I build personal apps. Away from the screen I spend time with friends — on the padel court, following F1, or on the couch with a controller."
   },
   "skills": {
