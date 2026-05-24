@@ -41,8 +41,9 @@
     "title": "Creative Work"
   },
   "contact": {
-    "title": "Let's talk",
-    "subtitle": "Got a project in mind, or just want to chat? Drop me a line.",
+    "title": "Contact",
+    "headline": "Got a project in mind?",
+    "subtitle": "If you need a website, an app, or a dashboard to manage your business, reach out.",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"
