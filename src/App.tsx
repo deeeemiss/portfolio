@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
+import { Analytics } from '@vercel/analytics/react'
 import { Sidebar } from './components/layout/Sidebar'
 import { About } from './components/sections/About'
 import { Experience } from './components/sections/Experience'
@@ -35,6 +36,7 @@ export default function App() {
         </div>
       </div>
       <SpeedInsights />
+      <Analytics />
     </>
   )
 }
