@@ -8,7 +8,7 @@ export const codeSkills: string[] = [
 ]
 
 export const creativeSkills: string[] = [
-  'Video Editing', 'Color Grading', 'Drone Footage',
+  'Video Editing', 'Drone Footage',
   'Photography', 'UX/UI Design', 'Figma',
-  'DaVinci Resolve', 'Adobe Premiere',
+  'DaVinci Resolve', 'Adobe Premiere', 'Photoshop', 'After Effects',
 ]
