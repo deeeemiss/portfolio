@@ -35,6 +35,13 @@ export function Contact() {
         {t('contact.title')}
       </h2>
 
+      <p className="font-sans text-2xl font-bold text-text-primary mb-2">
+        {t('contact.headline')}
+      </p>
+      <p className="text-[13px] text-text-primary/50 mb-8">
+        {t('contact.subtitle')}
+      </p>
+
       <div className="flex flex-col gap-1">
         {LINKS.map(({ Icon, labelKey, href, value, external }) => (
           <motion.a

@@ -41,8 +41,9 @@
     "title": "Lavori Creativi"
   },
   "contact": {
-    "title": "Parliamone",
-    "subtitle": "Hai un progetto in mente o vuoi solo fare due chiacchiere? Scrivimi.",
+    "title": "Contatti",
+    "headline": "Hai un progetto in mente?",
+    "subtitle": "Che tu abbia bisogno di un sito, un'app o una dashboard per gestire il tuo business, scrivimi.",
     "email": "Email",
     "linkedin": "LinkedIn",
     "github": "GitHub"

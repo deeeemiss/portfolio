@@ -3,6 +3,7 @@ import { Sidebar } from './components/layout/Sidebar'
 import { About } from './components/sections/About'
 import { Experience } from './components/sections/Experience'
 import { Projects } from './components/sections/Projects'
+import { Contact } from './components/sections/Contact'
 
 export default function App() {
   const [mouse, setMouse] = useState({ x: 0, y: 0 })
@@ -27,6 +28,7 @@ export default function App() {
           <About />
           <Experience />
           <Projects />
+          <Contact />
         </main>
       </div>
     </div>
