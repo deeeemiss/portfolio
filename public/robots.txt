@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /cv
 
-Sitemap: https://portfolio-zeta-mauve-87.vercel.app/sitemap.xml
+Sitemap: https://sebdemichelis.dev/sitemap.xml
