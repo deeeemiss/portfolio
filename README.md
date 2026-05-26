@@ -1,54 +1,51 @@
-# Sebastiano Demichelis — Portfolio
+# sebastianodemichelis.dev
 
-Portfolio personale. Stack: React + Vite + TypeScript + Tailwind CSS + Framer Motion.
+Personal portfolio site built with React, Vite, and Tailwind CSS.
 
-## Setup
+**Live:** [portfolio-zeta-mauve-87.vercel.app](https://portfolio-zeta-mauve-87.vercel.app)
+
+---
+
+## Tech Stack
+
+- **Framework:** React 19 + Vite
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Animation:** Framer Motion
+- **i18n:** react-i18next (IT / EN)
+- **Testing:** Vitest + Testing Library
+- **Deploy:** Vercel
+
+## Getting Started
 
 ```bash
 npm install
-npm run dev       # http://localhost:5173
-npm run build     # build di produzione in dist/
-npm test          # test
+npm run dev      # dev server at localhost:5173
+npm run build    # production build
+npm test         # run test suite
 ```
 
-## Aggiungere un progetto
+## Project Structure
 
-Aprire `src/data/projects.ts` e aggiungere un oggetto all'array `projects`:
-
-```ts
-{
-  id: 'mio-progetto',          // stringa unica, senza spazi
-  title: 'Nome Progetto',
-  description: 'Descrizione in italiano.',
-  descriptionEn: 'English description.',  // opzionale
-  category: 'dev',             // 'dev' | 'creative'
-  tech: ['React', 'Node.js'],  // opzionale, solo per dev
-  image: '/projects/nome.jpg', // opzionale, metti l'immagine in /public/projects/
-  link: 'https://...',         // opzionale
-  featured: true,              // opzionale
-}
+```
+src/
+├── components/   # UI components (layout, sections, ui)
+├── data/         # Content: projects, experience, skills
+├── i18n/         # Translations (it.json, en.json)
+├── hooks/        # Custom hooks
+└── pages/        # Route-level pages
 ```
 
-## Modificare i testi
+## Customization
 
-- Testi in italiano: `src/i18n/it.json`
-- Testi in inglese: `src/i18n/en.json`
-- Bio: chiavi `about.bio1` e `about.bio2`
+| What | Where |
+|------|-------|
+| Projects | `src/data/projects.ts` |
+| Experience | `src/data/experience.ts` |
+| Skills | `src/data/skills.ts` |
+| Copy (IT) | `src/i18n/it.json` |
+| Copy (EN) | `src/i18n/en.json` |
 
-## Modificare le skill
+## Inspiration
 
-Aprire `src/data/skills.ts`:
-- `codeSkills` → tab "Code"
-- `creativeSkills` → tab "Creative"
-
-## Aggiungere immagini progetti
-
-1. Mettere l'immagine in `public/projects/nome.jpg`
-2. Nel progetto in `projects.ts`: `image: '/projects/nome.jpg'`
-
-## Deploy su Vercel
-
-1. Push su GitHub
-2. Importare il repo su [vercel.com](https://vercel.com)
-3. Framework preset: **Vite** (rilevato automaticamente)
-4. Deploy automatico ad ogni push su `main`
+Design inspired by [Brittany Chiang's portfolio](https://brittanychiang.com).
