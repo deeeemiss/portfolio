@@ -12,7 +12,7 @@ i18n
       it: { translation: it },
       en: { translation: en },
     },
-    fallbackLng: 'it',
+    fallbackLng: 'en',
     load: 'languageOnly',
     detection: {
       order: ['localStorage', 'navigator'],
