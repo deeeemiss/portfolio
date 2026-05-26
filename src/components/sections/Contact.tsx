@@ -63,10 +63,10 @@ export function Contact() {
         ))}
       </div>
 
-      <p className="mt-16 text-[10px] text-text-primary/25 uppercase tracking-widest">
+      <p className="mt-24 text-xs text-text-primary/25 uppercase tracking-widest">
         Sebastiano Demichelis &copy; {new Date().getFullYear()}
       </p>
-      <p className="mt-2 text-[10px] text-text-primary/20">
+      <p className="mt-2 pb-8 text-xs text-text-primary/20">
         Built by Sebastiano Demichelis. Inspired by{' '}
         <a
           href="https://brittanychiang.com"
