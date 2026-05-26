@@ -2,7 +2,7 @@
 
 Personal portfolio site built with React, Vite, and Tailwind CSS.
 
-**Live:** [portfolio-zeta-mauve-87.vercel.app](https://portfolio-zeta-mauve-87.vercel.app)
+**Live:** [sebdemichelis.dev](https://sebdemichelis.dev)
 
 ---
 
