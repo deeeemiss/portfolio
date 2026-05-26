@@ -36,18 +36,6 @@ export default function App() {
             <Experience />
             <Projects />
             <Contact />
-            <footer className="text-text-primary/30 text-xs pb-4">
-              Designed &amp; built by Sebastiano Demichelis. Inspired by{' '}
-              <a
-                href="https://brittanychiang.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:text-accent transition-colors duration-200"
-              >
-                Brittany Chiang
-              </a>
-              .
-            </footer>
           </main>
         </div>
       </div>
