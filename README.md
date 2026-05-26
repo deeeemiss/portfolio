@@ -1,4 +1,4 @@
-# sebdemichelis.dev
+# Personal portfolio
 
 Personal portfolio site — built with React, Vite, and Tailwind CSS.
 
