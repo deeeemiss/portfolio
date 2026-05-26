@@ -2,8 +2,6 @@
 
 Personal portfolio site — built with React, Vite, and Tailwind CSS.
 
-**Live:** [sebdemichelis.dev](https://sebdemichelis.dev)
-
 ---
 
 ## Tech Stack
