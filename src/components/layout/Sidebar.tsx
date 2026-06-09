@@ -59,11 +59,11 @@ export function Sidebar() {
   const navItems = hasReadyProjects ? NAV_ITEMS : NAV_ITEMS.filter(i => i.id !== 'projects')
 
   return (
-    <aside className="md:sticky md:top-0 md:h-screen md:w-[36%] md:flex-shrink-0 flex flex-col justify-between px-8 py-16 md:px-12 md:py-24">
+    <aside className="md:sticky md:top-0 md:h-screen md:w-[36%] md:flex-shrink-0 flex flex-col justify-between px-8 py-16 md:px-12 md:py-24 landscape:py-6 landscape:px-8">
       <div>
         {/* Identity */}
         <div>
-          <h1 className="font-sans text-3xl md:text-[36px] font-extrabold text-text-primary leading-tight tracking-tight whitespace-nowrap">
+          <h1 className="font-sans text-3xl md:text-[36px] landscape:text-2xl font-extrabold text-text-primary leading-tight tracking-tight whitespace-nowrap landscape:whitespace-normal">
 Sebastiano Demichelis
           </h1>
           <p className="text-accent font-semibold text-base mt-2">
@@ -75,7 +75,7 @@ Sebastiano Demichelis
         </div>
 
         {/* Nav — hidden on mobile */}
-        <nav className="hidden md:flex flex-col gap-1 mt-12" aria-label={t('nav.aria_label')}>
+        <nav className="hidden md:flex flex-col gap-1 mt-12 landscape:mt-4" aria-label={t('nav.aria_label')}>
           {navItems.map(({ id, key }) => {
             const isActive = active === id
             return (
@@ -103,13 +103,13 @@ Sebastiano Demichelis
         </nav>
 
         {/* Language switcher */}
-        <div className="mt-8">
+        <div className="mt-8 landscape:mt-3">
           <LanguageSwitcher />
         </div>
       </div>
 
       {/* Social links */}
-      <div className="flex gap-4 mt-10">
+      <div className="flex gap-4 mt-10 landscape:mt-4">
         {SOCIAL_LINKS.map(({ href, label, tooltip, path, viewBox, scale, disabled }) =>
           disabled ? (
             <span
