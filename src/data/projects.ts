@@ -37,6 +37,7 @@ export const projects: Project[] = [
     descriptionEn:
       'Web-based LVGL simulator: write MicroPython or C/C++ and see it run live on a virtual display. MicroPython runs instantly via WebAssembly — no setup needed.',
     tech: ['React', 'TypeScript', 'Vite', 'Monaco Editor', 'MicroPython', 'WebAssembly'],
+    image: '/images/projects/lvgl-simulator.png',
     platform: 'web',
     featured: true,
     link: 'https://lvglsim.dev',
