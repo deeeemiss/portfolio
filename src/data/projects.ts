@@ -40,7 +40,6 @@ export const projects: Project[] = [
     image: '/images/projects/lvgl-simulator.png',
     platform: 'web',
     featured: true,
-    link: 'https://lvglsim.dev',
     links: {
       website: 'https://lvglsim.dev',
       github: 'https://github.com/deeeemiss/lvgl-simulator',

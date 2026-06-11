@@ -31,7 +31,7 @@ function StoreLinks({ links }: { links: ProjectLinks }) {
   const items = [
     { key: 'appStore', href: links.appStore, icon: <AppleIcon />, label: 'App Store' },
     { key: 'playStore', href: links.playStore, icon: <GooglePlayIcon />, label: 'Google Play' },
-    { key: 'website', href: links.website, icon: <Globe size={15} />, label: 'Website' },
+    { key: 'website', href: links.website, icon: <Globe size={15} />, label: links.website ? new URL(links.website).hostname : 'Website' },
     { key: 'github', href: links.github, icon: <GitHubIcon />, label: 'GitHub' },
   ].filter(({ href }) => href !== undefined)
 
