@@ -29,6 +29,22 @@ export function isProjectReady(project: Project): boolean {
 
 export const projects: Project[] = [
   {
+    id: 'lvgl-simulator',
+    title: 'LVGL Simulator',
+    year: 2025,
+    description:
+      'Simulatore LVGL nel browser: scrivi codice MicroPython o C/C++ e vedi il risultato in tempo reale su un display virtuale. MicroPython gira istantaneamente via WASM, senza installare nulla.',
+    descriptionEn:
+      'Web-based LVGL simulator: write MicroPython or C/C++ and see it run live on a virtual display. MicroPython runs instantly via WebAssembly — no setup needed.',
+    tech: ['React', 'TypeScript', 'Vite', 'Monaco Editor', 'MicroPython', 'WebAssembly'],
+    platform: 'web',
+    featured: true,
+    links: {
+      website: 'https://lvglsim.dev',
+      github: 'https://github.com/deeeemiss/lvgl-simulator',
+    },
+  },
+  {
     id: 'foosball',
     title: 'FOOSBALL',
     year: 2024,
