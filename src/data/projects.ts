@@ -39,6 +39,7 @@ export const projects: Project[] = [
     tech: ['React', 'TypeScript', 'Vite', 'Monaco Editor', 'MicroPython', 'WebAssembly'],
     platform: 'web',
     featured: true,
+    link: 'https://lvglsim.dev',
     links: {
       website: 'https://lvglsim.dev',
       github: 'https://github.com/deeeemiss/lvgl-simulator',
