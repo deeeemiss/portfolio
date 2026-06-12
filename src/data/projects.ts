@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     id: 'lvgl-simulator',
     title: 'LVGL Simulator',
-    year: 2025,
+    year: 2026,
     description:
       'Simulatore LVGL nel browser: scrivi codice MicroPython o C/C++ e vedi il risultato in tempo reale su un display virtuale. MicroPython gira istantaneamente via WASM, senza installare nulla.',
     descriptionEn:
