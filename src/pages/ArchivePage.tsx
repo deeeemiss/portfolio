@@ -27,7 +27,6 @@ export function ArchivePage() {
           <tr className="text-left">
             <th className="text-[10px] font-bold uppercase tracking-[2px] text-text-primary/30 pb-4 pr-6 w-16">{t('archive.col_year')}</th>
             <th className="text-[10px] font-bold uppercase tracking-[2px] text-text-primary/30 pb-4 pr-6">{t('archive.col_project')}</th>
-            <th className="text-[10px] font-bold uppercase tracking-[2px] text-text-primary/30 pb-4 pr-6 hidden md:table-cell">{t('archive.col_made_at')}</th>
             <th className="text-[10px] font-bold uppercase tracking-[2px] text-text-primary/30 pb-4 pr-6 hidden sm:table-cell">{t('archive.col_built_with')}</th>
             <th className="text-[10px] font-bold uppercase tracking-[2px] text-text-primary/30 pb-4">{t('archive.col_link')}</th>
           </tr>
@@ -48,9 +47,6 @@ export function ArchivePage() {
                 <p className="text-[12px] text-text-primary/40 mt-1 leading-relaxed max-w-sm">
                   {isEn ? (project.descriptionEn ?? project.description) : project.description}
                 </p>
-              </td>
-              <td className="py-4 pr-6 text-[13px] text-text-primary/45 align-top hidden md:table-cell whitespace-nowrap">
-                {project.madeAt ?? '—'}
               </td>
               <td className="py-4 pr-6 align-top hidden sm:table-cell">
                 <div className="flex flex-wrap gap-1.5">
