@@ -33,9 +33,9 @@ export const projects: Project[] = [
     title: 'LVGL Simulator',
     year: 2026,
     description:
-      'Simulatore LVGL nel browser: scrivi codice MicroPython o C/C++ e vedi il risultato in tempo reale su un display virtuale. MicroPython gira istantaneamente via WASM, senza installare nulla.',
+      'Simulatore LVGL nel browser: scrivi codice MicroPython e vedi il risultato in tempo reale su un display virtuale, senza installare nulla.',
     descriptionEn:
-      'Web-based LVGL simulator: write MicroPython or C/C++ and see it run live on a virtual display. MicroPython runs instantly via WebAssembly — no setup needed.',
+      'Web-based LVGL simulator: write MicroPython and see it run live on a virtual display, no setup needed.',
     tech: ['React', 'TypeScript', 'Vite', 'Monaco Editor', 'MicroPython', 'WebAssembly'],
     image: '/images/projects/lvgl-simulator.png',
     platform: 'web',
