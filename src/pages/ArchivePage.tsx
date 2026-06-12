@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { ArrowLeft, ExternalLink } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
-import { projects } from '../data/projects'
+import { projects, isProjectReady } from '../data/projects'
 
 export function ArchivePage() {
   const { t, i18n } = useTranslation()
@@ -33,7 +33,7 @@ export function ArchivePage() {
           </tr>
         </thead>
         <tbody>
-          {projects.map((project) => (
+          {projects.filter(isProjectReady).map((project) => (
             <tr
               key={project.id}
               className="border-t border-text-primary/8 group hover:bg-bg-surface/40 transition-colors"
