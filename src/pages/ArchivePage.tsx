@@ -65,18 +65,21 @@ export function ArchivePage() {
                 </div>
               </td>
               <td className="py-4 align-top">
-                {project.link ? (
-                  <a
-                    href={project.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-1 text-[12px] text-text-primary/45 hover:text-accent transition-colors"
-                  >
-                    <ExternalLink size={13} />
-                  </a>
-                ) : (
-                  <span className="text-text-primary/20 text-[13px]">—</span>
-                )}
+                {(() => {
+                  const url = project.link ?? project.links?.website ?? project.links?.appStore ?? project.links?.playStore
+                  return url ? (
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[12px] text-text-primary/45 hover:text-accent transition-colors"
+                    >
+                      <ExternalLink size={13} />
+                    </a>
+                  ) : (
+                    <span className="text-text-primary/20 text-[13px]">—</span>
+                  )
+                })()}
               </td>
             </tr>
           ))}
