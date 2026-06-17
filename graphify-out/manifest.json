@@ -1,0 +1,622 @@
+{
+  "/Users/sebastianodemichelis/portfolio/tsconfig.node.json": {
+    "mtime": 1778760826.2203686,
+    "ast_hash": "70bdd0a673bcfc0e828080b306e7c680",
+    "semantic_hash": "70bdd0a673bcfc0e828080b306e7c680"
+  },
+  "/Users/sebastianodemichelis/portfolio/vercel.json": {
+    "mtime": 1778763140.2690496,
+    "ast_hash": "3ce034f37a6661efc8073a99b87d2c87",
+    "semantic_hash": "3ce034f37a6661efc8073a99b87d2c87"
+  },
+  "/Users/sebastianodemichelis/portfolio/tsconfig.app.json": {
+    "mtime": 1778760982.858151,
+    "ast_hash": "e23b79e17272b74a300f0ac9d1441b6f",
+    "semantic_hash": "e23b79e17272b74a300f0ac9d1441b6f"
+  },
+  "/Users/sebastianodemichelis/portfolio/package.json": {
+    "mtime": 1779586827.4686558,
+    "ast_hash": "c9f0758a4f9b43b1b3a1ce3cc81897c6",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/tsconfig.json": {
+    "mtime": 1778760826.220251,
+    "ast_hash": "a3d39fa780ebff65444de257f291ce6c",
+    "semantic_hash": "a3d39fa780ebff65444de257f291ce6c"
+  },
+  "/Users/sebastianodemichelis/portfolio/eslint.config.js": {
+    "mtime": 1778760826.2176483,
+    "ast_hash": "0355276bc79439afe3c53e3a2470ca1e",
+    "semantic_hash": "0355276bc79439afe3c53e3a2470ca1e"
+  },
+  "/Users/sebastianodemichelis/portfolio/vite.config.ts": {
+    "mtime": 1778762394.2794397,
+    "ast_hash": "a1cc40a799fcf02ae90f37db727386be",
+    "semantic_hash": "a1cc40a799fcf02ae90f37db727386be"
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/settings.local.json": {
+    "mtime": 1779051808.8195996,
+    "ast_hash": "9653e657d71c09c30bdf04dc68c25a9a",
+    "semantic_hash": "9653e657d71c09c30bdf04dc68c25a9a"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/App.tsx": {
+    "mtime": 1780994867.301374,
+    "ast_hash": "06097cf89615131493b2261e864d1cfa",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/main.tsx": {
+    "mtime": 1779579385.6794667,
+    "ast_hash": "af1a137486e14dbf062a74ef2458ee16",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/test-setup.ts": {
+    "mtime": 1778760977.6653924,
+    "ast_hash": "994c5bf3f0f8742b450d0ab09b0d6bb9",
+    "semantic_hash": "994c5bf3f0f8742b450d0ab09b0d6bb9"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/ui/AnimatedSection.tsx": {
+    "mtime": 1778761748.2451098,
+    "ast_hash": "06453fcab2d9ab9d77858980736e23fe",
+    "semantic_hash": "06453fcab2d9ab9d77858980736e23fe"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/ui/ProjectCard.tsx": {
+    "mtime": 1781222108.253111,
+    "ast_hash": "160305cf2fd0c9093d6b7e5a78e01b6d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/ui/SkillTag.tsx": {
+    "mtime": 1778761749.0378342,
+    "ast_hash": "046867fe390a7f64daf3ef5fcdfe41f2",
+    "semantic_hash": "046867fe390a7f64daf3ef5fcdfe41f2"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/ui/__tests__/ProjectCard.test.tsx": {
+    "mtime": 1779584547.018716,
+    "ast_hash": "1907290000c67d3c24bdcb427cce403a",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/Projects.tsx": {
+    "mtime": 1779563031.847316,
+    "ast_hash": "57dab317e4f93bb50400fb89ff79f3b5",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/Experience.tsx": {
+    "mtime": 1779044515.7265399,
+    "ast_hash": "414b474fe94d279ef15112e1acacd7e4",
+    "semantic_hash": "414b474fe94d279ef15112e1acacd7e4"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/Contact.tsx": {
+    "mtime": 1779815695.9540439,
+    "ast_hash": "5ee59945999829d485f9c098dbbf8251",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/CreativeWork.tsx": {
+    "mtime": 1778960124.0639262,
+    "ast_hash": "eefa7d41b7bb2ca47780b886711a93a1",
+    "semantic_hash": "eefa7d41b7bb2ca47780b886711a93a1"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/Skills.tsx": {
+    "mtime": 1779044515.727082,
+    "ast_hash": "3a1fb899c1f949870c8b083ef4ae0534",
+    "semantic_hash": "3a1fb899c1f949870c8b083ef4ae0534"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/About.tsx": {
+    "mtime": 1779054058.1799982,
+    "ast_hash": "fad4ab22fd2b5d07a7f112c2741f4857",
+    "semantic_hash": "fad4ab22fd2b5d07a7f112c2741f4857"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/__tests__/CreativeWork.test.tsx": {
+    "mtime": 1778960138.9353147,
+    "ast_hash": "54e7850389378c1bfe93ba067f40a7b2",
+    "semantic_hash": "54e7850389378c1bfe93ba067f40a7b2"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/__tests__/Projects.test.tsx": {
+    "mtime": 1779023911.4729536,
+    "ast_hash": "ae4200db7afc39ab9c681763bbfeaa79",
+    "semantic_hash": "ae4200db7afc39ab9c681763bbfeaa79"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/__tests__/Skills.test.tsx": {
+    "mtime": 1778761982.434883,
+    "ast_hash": "4fa5c0c19ebfb200c163ed191ff99ff8",
+    "semantic_hash": "4fa5c0c19ebfb200c163ed191ff99ff8"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/sections/__tests__/Experience.test.tsx": {
+    "mtime": 1779039728.16722,
+    "ast_hash": "f6c36f1917cd3ba1492c9cb1ea0c4e36",
+    "semantic_hash": "f6c36f1917cd3ba1492c9cb1ea0c4e36"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/layout/Sidebar.tsx": {
+    "mtime": 1780994867.3019016,
+    "ast_hash": "33302bc4dcb7972636ef95e1194e8d73",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/layout/LanguageSwitcher.tsx": {
+    "mtime": 1779023070.906326,
+    "ast_hash": "d3a421caabc44f0dd4ee576807a25bd2",
+    "semantic_hash": "d3a421caabc44f0dd4ee576807a25bd2"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/layout/__tests__/Sidebar.test.tsx": {
+    "mtime": 1779036524.8131592,
+    "ast_hash": "13c22ef7258776760e152183a487f63d",
+    "semantic_hash": "13c22ef7258776760e152183a487f63d"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/components/layout/__tests__/LanguageSwitcher.test.tsx": {
+    "mtime": 1779023101.0625694,
+    "ast_hash": "492f16d0089740eea23bef5404b3f04f",
+    "semantic_hash": "492f16d0089740eea23bef5404b3f04f"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/hooks/useActiveSection.ts": {
+    "mtime": 1779054844.617775,
+    "ast_hash": "a688c2a8e62830e297f4107d4045c665",
+    "semantic_hash": "a688c2a8e62830e297f4107d4045c665"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/i18n/en.json": {
+    "mtime": 1781222998.5262954,
+    "ast_hash": "2217b51bc338c63ec7e6f9127efcdc76",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/i18n/it.json": {
+    "mtime": 1781222994.5691864,
+    "ast_hash": "f08dd7bb6bc7f515893a85ab9171b817",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/i18n/index.ts": {
+    "mtime": 1779815561.3239403,
+    "ast_hash": "eef62d6248017ef0f5df3fbcac7baf3d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/i18n/__tests__/translations.test.ts": {
+    "mtime": 1778958123.8227887,
+    "ast_hash": "482a8613515b5c31b37cdb2d342d501a",
+    "semantic_hash": "482a8613515b5c31b37cdb2d342d501a"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/projects.ts": {
+    "mtime": 1781223457.0930276,
+    "ast_hash": "99dedbef89233be6557c37796f0f3a6f",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/creativeWork.ts": {
+    "mtime": 1779375287.4339015,
+    "ast_hash": "60ef16feafac0de715b1a3ac0b238086",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/experience.ts": {
+    "mtime": 1779585808.3197496,
+    "ast_hash": "88f1197e5bc66208c49f7896f4a01e27",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/skills.ts": {
+    "mtime": 1779645974.4315207,
+    "ast_hash": "d62d0be94fe56e0138854263790ae13c",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/__tests__/creativeWork.test.ts": {
+    "mtime": 1778958336.071041,
+    "ast_hash": "3030028f8f6229ef7af218704c45b806",
+    "semantic_hash": "3030028f8f6229ef7af218704c45b806"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/__tests__/projects.test.ts": {
+    "mtime": 1778958176.286326,
+    "ast_hash": "1221bbf82a744276fc81a466a8012e73",
+    "semantic_hash": "1221bbf82a744276fc81a466a8012e73"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/data/__tests__/experience.test.ts": {
+    "mtime": 1778958331.8087106,
+    "ast_hash": "8f7ba00390ccbc3f12c6b7238842d3c7",
+    "semantic_hash": "8f7ba00390ccbc3f12c6b7238842d3c7"
+  },
+  "/Users/sebastianodemichelis/portfolio/src/pages/ArchivePage.tsx": {
+    "mtime": 1781252389.02814,
+    "ast_hash": "f9d0f63ec42ab39b90c8643e19f113cf",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/settings.json": {
+    "mtime": 1780994339.7727349,
+    "ast_hash": "7b0165f1179b92f6fac764b56ee9d0a3",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/index.html": {
+    "mtime": 1781252962.190927,
+    "ast_hash": "94cffa0a82003c15afdd63a76087eadf",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/README.md": {
+    "mtime": 1780994867.2751343,
+    "ast_hash": "c804c0bd69633eb94e2df61b07eb72fb",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/CLAUDE.md": {
+    "mtime": 1779282050.8425236,
+    "ast_hash": "82efb97a359f5c7290bf2513d14686be",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/cv-it.pdf": {
+    "mtime": 1779026376.4864314,
+    "ast_hash": "b562bb0d4082885fdb913d949d6151d8",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/cv-en.pdf": {
+    "mtime": 1779026376.4892128,
+    "ast_hash": "6d524106b88afe816c64afd36ea83938",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/icons.svg": {
+    "mtime": 1778760826.2187295,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/favicon.svg": {
+    "mtime": 1779050629.7248473,
+    "ast_hash": "57e995a43543d1b094c4fdb2ff52eb4d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/logos/ntt-data.svg": {
+    "mtime": 1779036946.5156772,
+    "ast_hash": "b4bde0ce5e3a8afed727ed0241b41412",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/logos/alphawaves.png": {
+    "mtime": 1779037485.5937912,
+    "ast_hash": "6024c6d9426c50dbb154c7b77aa387d6",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/logos/msc-technology.png": {
+    "mtime": 1779038425.1221123,
+    "ast_hash": "8091ad7411a582e0b5d7846d4ba524bd",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/assets/hero.png": {
+    "mtime": 1778760826.2193623,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/assets/vite.svg": {
+    "mtime": 1778760826.2196815,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/assets/react.svg": {
+    "mtime": 1778760826.2195313,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.vercel/project.json": {
+    "mtime": 1779584445.300704,
+    "ast_hash": "f1f7eba40337e7f77451e509ebfc6702",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/pages/CvPage.tsx": {
+    "mtime": 1779579385.6796315,
+    "ast_hash": "56ce489a9fde514d227452607a0d67c2",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/src/pages/NotFoundPage.tsx": {
+    "mtime": 1779585344.1294973,
+    "ast_hash": "66807884e767adce4c9091aa60279d9f",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.vercel/README.txt": {
+    "mtime": 1779584445.301092,
+    "ast_hash": "2b13c79d37d6ed82a3255b83b6815034",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/tsconfig.node.json": {
+    "mtime": 1780994284.0751674,
+    "ast_hash": "70bdd0a673bcfc0e828080b306e7c680",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/vercel.json": {
+    "mtime": 1780994284.075406,
+    "ast_hash": "3ce034f37a6661efc8073a99b87d2c87",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/tsconfig.app.json": {
+    "mtime": 1780994284.0744705,
+    "ast_hash": "e23b79e17272b74a300f0ac9d1441b6f",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/package.json": {
+    "mtime": 1780994284.042996,
+    "ast_hash": "c9f0758a4f9b43b1b3a1ce3cc81897c6",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/tsconfig.json": {
+    "mtime": 1780994284.0750163,
+    "ast_hash": "a3d39fa780ebff65444de257f291ce6c",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/eslint.config.js": {
+    "mtime": 1780994284.0404358,
+    "ast_hash": "0355276bc79439afe3c53e3a2470ca1e",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/vite.config.ts": {
+    "mtime": 1780994284.075746,
+    "ast_hash": "a1cc40a799fcf02ae90f37db727386be",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/App.tsx": {
+    "mtime": 1780994441.39849,
+    "ast_hash": "06097cf89615131493b2261e864d1cfa",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/main.tsx": {
+    "mtime": 1780994284.072608,
+    "ast_hash": "af1a137486e14dbf062a74ef2458ee16",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/test-setup.ts": {
+    "mtime": 1780994284.0740948,
+    "ast_hash": "994c5bf3f0f8742b450d0ab09b0d6bb9",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/ui/AnimatedSection.tsx": {
+    "mtime": 1780994284.0656438,
+    "ast_hash": "06453fcab2d9ab9d77858980736e23fe",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/ui/ProjectCard.tsx": {
+    "mtime": 1780994284.065981,
+    "ast_hash": "7d4cb7624422f345d9acd2e0e4b410ed",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/ui/SkillTag.tsx": {
+    "mtime": 1780994284.0663881,
+    "ast_hash": "046867fe390a7f64daf3ef5fcdfe41f2",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/ui/__tests__/ProjectCard.test.tsx": {
+    "mtime": 1780994284.0669136,
+    "ast_hash": "1907290000c67d3c24bdcb427cce403a",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/Projects.tsx": {
+    "mtime": 1780994284.0635417,
+    "ast_hash": "57dab317e4f93bb50400fb89ff79f3b5",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/Experience.tsx": {
+    "mtime": 1780994284.0628328,
+    "ast_hash": "414b474fe94d279ef15112e1acacd7e4",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/Contact.tsx": {
+    "mtime": 1780994284.0617578,
+    "ast_hash": "5ee59945999829d485f9c098dbbf8251",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/CreativeWork.tsx": {
+    "mtime": 1780994284.0622926,
+    "ast_hash": "eefa7d41b7bb2ca47780b886711a93a1",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/Skills.tsx": {
+    "mtime": 1780994284.0640345,
+    "ast_hash": "3a1fb899c1f949870c8b083ef4ae0534",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/About.tsx": {
+    "mtime": 1780994284.0612774,
+    "ast_hash": "fad4ab22fd2b5d07a7f112c2741f4857",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/__tests__/CreativeWork.test.tsx": {
+    "mtime": 1780994284.0643673,
+    "ast_hash": "54e7850389378c1bfe93ba067f40a7b2",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/__tests__/Projects.test.tsx": {
+    "mtime": 1780994284.0649126,
+    "ast_hash": "ae4200db7afc39ab9c681763bbfeaa79",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/__tests__/Skills.test.tsx": {
+    "mtime": 1780994284.0651789,
+    "ast_hash": "4fa5c0c19ebfb200c163ed191ff99ff8",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/sections/__tests__/Experience.test.tsx": {
+    "mtime": 1780994284.0646422,
+    "ast_hash": "f6c36f1917cd3ba1492c9cb1ea0c4e36",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/layout/Sidebar.tsx": {
+    "mtime": 1780994427.5995264,
+    "ast_hash": "33302bc4dcb7972636ef95e1194e8d73",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/layout/LanguageSwitcher.tsx": {
+    "mtime": 1780994284.0594401,
+    "ast_hash": "d3a421caabc44f0dd4ee576807a25bd2",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/layout/__tests__/Sidebar.test.tsx": {
+    "mtime": 1780994284.0605552,
+    "ast_hash": "13c22ef7258776760e152183a487f63d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/components/layout/__tests__/LanguageSwitcher.test.tsx": {
+    "mtime": 1780994284.0602577,
+    "ast_hash": "492f16d0089740eea23bef5404b3f04f",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/hooks/useActiveSection.ts": {
+    "mtime": 1780994284.0702484,
+    "ast_hash": "a688c2a8e62830e297f4107d4045c665",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/i18n/en.json": {
+    "mtime": 1780994284.071067,
+    "ast_hash": "53c34804f78607db010839e847551d46",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/i18n/it.json": {
+    "mtime": 1780994284.0717032,
+    "ast_hash": "fe1b12b6ad263ceb29908e094d5dc2dc",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/i18n/index.ts": {
+    "mtime": 1780994284.0713382,
+    "ast_hash": "eef62d6248017ef0f5df3fbcac7baf3d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/i18n/__tests__/translations.test.ts": {
+    "mtime": 1780994284.0706525,
+    "ast_hash": "482a8613515b5c31b37cdb2d342d501a",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/projects.ts": {
+    "mtime": 1780994284.0690093,
+    "ast_hash": "3ff58d52ce8bd345adc60829a163d8da",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/creativeWork.ts": {
+    "mtime": 1780994284.0683594,
+    "ast_hash": "60ef16feafac0de715b1a3ac0b238086",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/experience.ts": {
+    "mtime": 1780994284.0687385,
+    "ast_hash": "88f1197e5bc66208c49f7896f4a01e27",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/skills.ts": {
+    "mtime": 1780994284.06975,
+    "ast_hash": "d62d0be94fe56e0138854263790ae13c",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/__tests__/creativeWork.test.ts": {
+    "mtime": 1780994284.0673144,
+    "ast_hash": "3030028f8f6229ef7af218704c45b806",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/__tests__/projects.test.ts": {
+    "mtime": 1780994284.06794,
+    "ast_hash": "1221bbf82a744276fc81a466a8012e73",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/data/__tests__/experience.test.ts": {
+    "mtime": 1780994284.0676024,
+    "ast_hash": "8f7ba00390ccbc3f12c6b7238842d3c7",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/pages/CvPage.tsx": {
+    "mtime": 1780994284.0734944,
+    "ast_hash": "56ce489a9fde514d227452607a0d67c2",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/pages/ArchivePage.tsx": {
+    "mtime": 1780994284.0730278,
+    "ast_hash": "810bfb688fce49b624da573ebdf6ec64",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/pages/NotFoundPage.tsx": {
+    "mtime": 1780994284.0738525,
+    "ast_hash": "66807884e767adce4c9091aa60279d9f",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/index.html": {
+    "mtime": 1780994284.0408878,
+    "ast_hash": "701e8fe10c53a58c1cbc3ba4ad66c9aa",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/README.md": {
+    "mtime": 1780994284.0401976,
+    "ast_hash": "f95a156b39bea03402ff6954a5d38bf8",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/robots.txt": {
+    "mtime": 1780994284.0555148,
+    "ast_hash": "a0bcaf375cfef3baafefe90abb8af927",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/projects-layout.html": {
+    "mtime": 1780994284.0379677,
+    "ast_hash": "11e0f51437492ef6b443e3fece2faf35",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/waiting-2.html": {
+    "mtime": 1780994284.0387998,
+    "ast_hash": "44b3ae034f564b8ed722d684a274336d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/layout-options.html": {
+    "mtime": 1780994284.037515,
+    "ast_hash": "a5a90d5c2aec5392728ca50b79cc3119",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/spotlight-demo.html": {
+    "mtime": 1780994284.0383677,
+    "ast_hash": "6b16b4c7b2c846bf368833d5ac209309",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/full-design.html": {
+    "mtime": 1780994284.0370698,
+    "ast_hash": "7cc19738dc7de1ac523b1694e9275a22",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/.superpowers/brainstorm/3814-1778947445/content/waiting-1.html": {
+    "mtime": 1780994284.0386896,
+    "ast_hash": "44b3ae034f564b8ed722d684a274336d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/robots.txt": {
+    "mtime": 1779813859.0083137,
+    "ast_hash": "a0bcaf375cfef3baafefe90abb8af927",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/cv-it.pdf": {
+    "mtime": 1780994284.0517728,
+    "ast_hash": "b562bb0d4082885fdb913d949d6151d8",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/cv-en.pdf": {
+    "mtime": 1780994284.04752,
+    "ast_hash": "6d524106b88afe816c64afd36ea83938",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/icons.svg": {
+    "mtime": 1780994284.0531592,
+    "ast_hash": "3b4fcfcf393eca4d264dca4a4663bc37",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/favicon.svg": {
+    "mtime": 1780994284.0524316,
+    "ast_hash": "57e995a43543d1b094c4fdb2ff52eb4d",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/logos/ntt-data.svg": {
+    "mtime": 1780994284.0551395,
+    "ast_hash": "b4bde0ce5e3a8afed727ed0241b41412",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/logos/alphawaves.png": {
+    "mtime": 1780994284.0541315,
+    "ast_hash": "6024c6d9426c50dbb154c7b77aa387d6",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/public/logos/msc-technology.png": {
+    "mtime": 1780994284.0547075,
+    "ast_hash": "8091ad7411a582e0b5d7846d4ba524bd",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/assets/hero.png": {
+    "mtime": 1780994284.058096,
+    "ast_hash": "aead493361b27e7510691c5d7072dfc1",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/assets/vite.svg": {
+    "mtime": 1780994284.0587873,
+    "ast_hash": "9960a24288958394ac50e57ff638b036",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/.claude/worktrees/landscape-fix/src/assets/react.svg": {
+    "mtime": 1780994284.0583692,
+    "ast_hash": "f0402b67b6ce880f65666bb49e841696",
+    "semantic_hash": ""
+  },
+  "/Users/sebastianodemichelis/portfolio/public/images/projects/lvgl-simulator.png": {
+    "mtime": 1781252735.8653002,
+    "ast_hash": "910145f2519c93addaeda52ff130de7b",
+    "semantic_hash": ""
+  }
+}
