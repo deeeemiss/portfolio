@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MacPortal — Privacy e supporto</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>MacPortal</h1>
+  <p class="tagline">Controlla il tuo Mac da iPhone, iPad o da un altro Mac.</p>
+</header>
+
+<section id="supporto" class="card">
+  <h2 style="margin-top:0">Supporto</h2>
+  <p>Per problemi, domande o segnalazioni scrivi a
+     <a href="mailto:sebastianodemichelis@gmail.com">sebastianodemichelis@gmail.com</a>.</p>
+
+  <h3>Prima di scrivere, due controlli veloci</h3>
+  <ul>
+    <li><strong>Sul Mac</strong>: Impostazioni di Sistema › Generali › Condivisione › <em>Gestione schermo</em> attiva.</li>
+    <li><strong>L'indirizzo</strong>: il dispositivo deve già raggiungere il Mac — stessa rete Wi-Fi, oppure una VPN attiva su entrambi. MacPortal non crea tunnel e non aggira router o firewall.</li>
+    <li><strong>Le credenziali</strong>: sono nome utente e password del tuo account sul Mac, non un account MacPortal (che non esiste).</li>
+  </ul>
+</section>
+
+<section id="privacy" class="card">
+  <h2 style="margin-top:0">Informativa sulla privacy</h2>
+  <p class="updated">Ultimo aggiornamento: 16 agosto 2026</p>
+
+  <p class="lead">MacPortal non raccoglie, non trasmette e non conserva alcun dato
+  personale. Non esistono server, account o servizi gestiti dallo sviluppatore:
+  l'app apre soltanto una connessione diretta dal tuo dispositivo al tuo Mac.</p>
+
+  <h3>Dati trattati</h3>
+  <p>Tutti i dati restano sul dispositivo:</p>
+  <table>
+    <thead><tr><th>Dato</th><th>Dove vive</th><th>Perché</th></tr></thead>
+    <tbody>
+      <tr><td>Nome, indirizzi e porta dei Mac salvati</td><td>Database locale dell'app, in un App Group condiviso con widget e Control Center</td><td>Elencare e raggiungere i tuoi Mac</td></tr>
+      <tr><td>Nome utente del Mac</td><td>Stesso database locale</td><td>Precompilare l'autenticazione</td></tr>
+      <tr><td>Password del Mac</td><td><strong>Solo Portachiavi</strong> del dispositivo, accessibile solo a dispositivo sbloccato</td><td>Autenticare la sessione</td></tr>
+      <tr><td>Nome della rete Wi-Fi associato a un indirizzo</td><td>Database locale</td><td>Provare per primo l'indirizzo valido sulla rete corrente</td></tr>
+      <tr><td>Preferenze (qualità, appunti, blocco app)</td><td>Impostazioni locali dell'app</td><td>Ricordare le tue scelte</td></tr>
+    </tbody>
+  </table>
+  <p>La password non viene mai scritta nel database, nelle impostazioni o nei
+  log, e non viene mai letta dalle estensioni widget e Control Center.</p>
+
+  <h3>Trasmissione dei dati</h3>
+  <p>L'unico traffico generato dall'app è la connessione al Mac, verso
+  l'indirizzo e la porta che indichi tu (5900 per impostazione predefinita).
+  Quel traffico va dal tuo dispositivo al tuo Mac, direttamente: non passa da
+  alcun relay o intermediario. Facoltativamente, se lo richiedi, l'app invia un
+  pacchetto Wake-on-LAN nella rete locale.</p>
+  <p>Non c'è nessun'altra richiesta di rete: niente analitiche, niente
+  telemetria, niente segnalazione di errori, niente pubblicità, nessun SDK di
+  terze parti che trasmetta dati.</p>
+
+  <h3>Terze parti</h3>
+  <p>L'app usa la libreria open source RoyalVNCKit per il protocollo VNC. Viene
+  eseguita in locale e non invia dati a nessuno.</p>
+
+  <h3>Permessi richiesti</h3>
+  <ul>
+    <li><strong>Rete locale</strong>: per raggiungere il Mac sulla stessa rete.</li>
+    <li><strong>Informazioni Wi-Fi</strong> (facoltativo, iOS): per leggere il nome della rete corrente e scegliere l'indirizzo giusto. Se lo neghi, l'app prova gli indirizzi nell'ordine salvato.</li>
+    <li><strong>Face ID / Touch ID</strong> (facoltativo): per il blocco dell'app.</li>
+  </ul>
+
+  <h3>Cancellazione dei dati</h3>
+  <p>Eliminando una connessione si cancella anche la password associata dal
+  Portachiavi. Disinstallando l'app si rimuovono tutti i dati locali.</p>
+
+  <h3>Contatti</h3>
+  <p><a href="mailto:sebastianodemichelis@gmail.com">sebastianodemichelis@gmail.com</a></p>
+</section>
+
+<footer>© 2026 Sebastiano Demichelis</footer>
+
+</div>
+</body>
+</html>
