@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MacPortal — Privacy, terms and support</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class="wrap">
+
+<header class="app-header">
+  <img src="../icon.png" alt="" width="92" height="92">
+  <div>
+    <h1>MacPortal</h1>
+    <p class="tagline">Control your Mac from your iPhone, iPad, or another Mac.</p>
+    <nav class="tagline section-nav" aria-label="Page sections">
+      <a href="#support">Support</a> <span class="sep">&middot;</span>
+      <a href="#privacy">Privacy</a> <span class="sep">&middot;</span>
+      <a href="#terms">Terms of use</a> <span class="sep">&middot;</span>
+      <a href="../">Italiano</a>
+    </nav>
+  </div>
+</header>
+
+<section id="support" class="card">
+  <h2 style="margin-top:0">Support</h2>
+  <p>For problems, questions or reports, write to
+     <a href="mailto:sebastianodemichelis@gmail.com">sebastianodemichelis@gmail.com</a>.</p>
+
+  <h3>Two quick checks before you write</h3>
+  <ul>
+    <li><strong>On the Mac</strong>: System Settings › General › Sharing › <em>Screen Sharing</em> turned on.</li>
+    <li><strong>The address</strong>: your device must already reach the Mac — same Wi-Fi network, or a VPN active on both. MacPortal creates no tunnel and works around no router or firewall.</li>
+    <li><strong>The credentials</strong>: they are the username and password of your account on the Mac, not a MacPortal account (there is no such thing).</li>
+  </ul>
+</section>
+
+<section id="privacy" class="card">
+  <h2 style="margin-top:0">Privacy policy</h2>
+  <p class="updated">Last updated: 19 August 2026</p>
+
+  <p class="lead">MacPortal collects no personal data, transmits none and stores
+  none. There are no servers, accounts or services run by the developer: the app
+  only opens a direct connection from your device to your Mac.</p>
+
+  <h3>Data handled</h3>
+  <p>Everything stays on the device:</p>
+  <table>
+    <thead><tr><th>Data</th><th>Where it lives</th><th>Why</th></tr></thead>
+    <tbody>
+      <tr><td>Name, addresses and port of the Macs you save</td><td>The app's local database, in an App Group shared with the widget and Control Center</td><td>To list and reach your Macs</td></tr>
+      <tr><td>The Mac's username</td><td>Same local database</td><td>To pre-fill authentication</td></tr>
+      <tr><td>The Mac's password</td><td><strong>Keychain only</strong>, on the device, reachable only while the device is unlocked</td><td>To authenticate the session</td></tr>
+      <tr><td>The Wi-Fi network name tied to an address</td><td>Local database</td><td>To try the address that is valid on the current network first</td></tr>
+      <tr><td>Preferences (quality, clipboard, app lock)</td><td>The app's local settings</td><td>To remember your choices</td></tr>
+    </tbody>
+  </table>
+  <p>The password is never written to the database, to settings or to logs, and
+  is never read by the widget and Control Center extensions.</p>
+
+  <h3>Data transmission</h3>
+  <p>The only traffic the app generates is the connection to your Mac, to the
+  address and port you enter yourself (5900 by default). That traffic goes from
+  your device to your Mac directly: it passes through no relay and no
+  intermediary. Optionally, if you ask for it, the app sends a Wake-on-LAN
+  packet on the local network.</p>
+  <p>There is no other network request: no analytics, no telemetry, no crash
+  reporting, no advertising, no third-party SDK transmitting data.</p>
+
+  <h3>Purchases</h3>
+  <p>MacPortal Pro is handled entirely by Apple's In-App Purchase system. The
+  developer never sees your payment details: the app only asks the system
+  whether the purchase has been made.</p>
+
+  <h3>Third parties</h3>
+  <p>The app uses the open source library RoyalVNCKit for the VNC protocol. It
+  runs locally and sends data to nobody.</p>
+
+  <h3>Permissions requested</h3>
+  <ul>
+    <li><strong>Local network</strong>: to reach the Mac on the same network.</li>
+    <li><strong>Wi-Fi information</strong> (optional, iOS): to read the current network name and pick the right address. If you deny it, the app tries the addresses in the order you saved them.</li>
+    <li><strong>Face ID / Touch ID</strong> (optional): for the app lock.</li>
+  </ul>
+
+  <h3>Deleting your data</h3>
+  <p>Deleting a connection also deletes its password from the Keychain.
+  Uninstalling the app removes all local data.</p>
+
+  <h3>Contact</h3>
+  <p><a href="mailto:sebastianodemichelis@gmail.com">sebastianodemichelis@gmail.com</a></p>
+</section>
+
+<section id="terms" class="card">
+  <h2 style="margin-top:0">Terms of use</h2>
+  <p class="updated">Last updated: 19 August 2026</p>
+
+  <p class="lead">MacPortal is free to download and works in full with one saved
+  Mac. MacPortal Pro is a one-time purchase that lifts that limit. By using the
+  app you accept the following.</p>
+
+  <h3>What you may do</h3>
+  <p>You may install and use MacPortal on devices you own or manage, to reach
+  Macs you are authorised to access. The licence is personal and
+  non-exclusive: the app remains the developer's property, and ownership of it
+  is not transferred to you.</p>
+
+  <h3>What is not allowed</h3>
+  <ul>
+    <li>Using the app to access other people's computers without the permission of whoever controls them.</li>
+    <li>Reselling the app, distributing it as your own, or making derivative works of it.</li>
+    <li>Decompiling it or attempting to circumvent its technical measures, except where the law expressly permits it.</li>
+  </ul>
+  <p>You are responsible for how you use it and for respecting the rules of the
+  networks and systems you connect to.</p>
+
+  <h3>What it does and does not do</h3>
+  <p>MacPortal only opens a direct connection to the computer you point it at.
+  It does not provide remote access by itself: it creates no tunnel, works
+  around no router or firewall, and does not work if your device cannot already
+  reach the Mac over the network. There are no accounts, servers or services run
+  by the developer, so there is nothing that can be suspended or revoked
+  remotely.</p>
+
+  <h3>In-app purchases</h3>
+  <p>MacPortal Pro is a one-time purchase, not a subscription: you pay once, it
+  does not renew and there is nothing to cancel. It applies to iPhone, iPad and
+  Mac using the same Apple Account. It unlocks more saved Macs, several
+  addresses for the same Mac, waking a Mac over the local network, widgets and
+  Control Center, and shared clipboard.</p>
+  <p>Payment is handled by Apple: the developer neither sees nor stores your
+  card details. For refunds and billing problems contact Apple, the only party
+  that can act on the transaction.</p>
+
+  <h3>No warranty</h3>
+  <p>The app is provided "as is", without warranties of any kind, express or
+  implied, including those of uninterrupted operation, absence of defects or
+  fitness for a particular purpose. To the extent permitted by law, the
+  developer is not liable for damages, data loss or failed connections arising
+  from use of the app.</p>
+  <p>Mandatory consumer protections granted by law remain unaffected: nothing in
+  these terms is intended to limit them.</p>
+
+  <h3>Support and updates</h3>
+  <p>The app is developed and maintained personally. Support is offered when
+  possible, with no guaranteed response time, and there is no commitment to
+  publish updates or to maintain compatibility with future operating system
+  versions.</p>
+
+  <h3>Changes</h3>
+  <p>These terms may change along with the app. The version in force is the one
+  published on this page, with the update date shown at the top.</p>
+
+  <h3>Governing law</h3>
+  <p>Italian law applies. For disputes with consumers, the court of the
+  consumer's place of residence or domicile remains competent.</p>
+
+  <h3>Contact</h3>
+  <p><a href="mailto:sebastianodemichelis@gmail.com">sebastianodemichelis@gmail.com</a></p>
+</section>
+
+<footer>© 2026 Sebastiano Demichelis</footer>
+
+</div>
+</body>
+</html>
