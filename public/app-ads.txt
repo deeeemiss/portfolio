@@ -1,0 +1,5 @@
+# Dichiara chi è autorizzato a vendere lo spazio pubblicitario delle app
+# pubblicate da questo sito. Senza questo file gli acquirenti non possono
+# verificare che l'inventario sia autentico e molti smettono di fare offerte.
+# Lupus - Il Villaggio (iOS/Android), AdMob.
+google.com, pub-4155812577612186, DIRECT, f08c47fec0942fa0
