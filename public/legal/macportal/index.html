@@ -52,13 +52,15 @@
     <tbody>
       <tr><td>Nome, indirizzi e porta dei Mac salvati</td><td>Database locale dell'app, in un App Group condiviso con widget e Control Center</td><td>Elencare e raggiungere i tuoi Mac</td></tr>
       <tr><td>Nome utente del Mac</td><td>Stesso database locale</td><td>Precompilare l'autenticazione</td></tr>
-      <tr><td>Password del Mac</td><td><strong>Solo Portachiavi</strong> del dispositivo, accessibile solo a dispositivo sbloccato</td><td>Autenticare la sessione</td></tr>
+      <tr><td>Password del Mac</td><td><strong>Portachiavi</strong>, accessibile solo a dispositivo sbloccato. Con MacPortal Pro e la sincronizzazione attiva vive nel Portachiavi iCloud, cifrato end-to-end: nemmeno Apple può leggerlo</td><td>Autenticare la sessione</td></tr>
       <tr><td>Nome della rete Wi-Fi associato a un indirizzo</td><td>Database locale</td><td>Provare per primo l'indirizzo valido sulla rete corrente</td></tr>
       <tr><td>Preferenze (qualità, appunti, blocco app)</td><td>Impostazioni locali dell'app</td><td>Ricordare le tue scelte</td></tr>
     </tbody>
   </table>
   <p>La password non viene mai scritta nel database, nelle impostazioni o nei
-  log, e non viene mai letta dalle estensioni widget e Control Center.</p>
+  log, e non viene mai letta dalle estensioni widget e Control Center. Se attivi
+  la sincronizzazione, Apple la trasporta fra i tuoi dispositivi nel Portachiavi
+  iCloud senza che lo sviluppatore la veda mai.</p>
 
   <h3>Trasmissione dei dati</h3>
   <p>L'unico traffico generato dall'app è la connessione al Mac, verso
@@ -69,6 +71,14 @@
   <p>Non c'è nessun'altra richiesta di rete: niente analitiche, niente
   telemetria, niente segnalazione di errori, niente pubblicità, nessun SDK di
   terze parti che trasmetta dati.</p>
+
+  <h3>Sincronizzazione fra i tuoi dispositivi</h3>
+  <p>Con MacPortal Pro puoi sincronizzare i Mac salvati fra iPhone, iPad e Mac
+  collegati allo stesso Apple Account. I dati viaggiano nel tuo database iCloud
+  privato e le password nel Portachiavi iCloud: entrambi sono spazi tuoi, a cui
+  lo sviluppatore non ha accesso, e non esiste alcun server di MacPortal. La
+  sincronizzazione si attiva dalle impostazioni dell'app, si può disattivare, e
+  disattivandola i dati già presenti su ogni dispositivo restano dove sono.</p>
 
   <h3>Terze parti</h3>
   <p>L'app usa la libreria open source RoyalVNCKit per il protocollo VNC. Viene

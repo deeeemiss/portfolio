@@ -52,13 +52,15 @@
     <tbody>
       <tr><td>Name, addresses and port of the Macs you save</td><td>The app's local database, in an App Group shared with the widget and Control Center</td><td>To list and reach your Macs</td></tr>
       <tr><td>The Mac's username</td><td>Same local database</td><td>To pre-fill authentication</td></tr>
-      <tr><td>The Mac's password</td><td><strong>Keychain only</strong>, on the device, reachable only while the device is unlocked</td><td>To authenticate the session</td></tr>
+      <tr><td>The Mac's password</td><td><strong>Keychain</strong>, reachable only while the device is unlocked. With MacPortal Pro and syncing on it lives in the iCloud Keychain, end-to-end encrypted: not even Apple can read it</td><td>To authenticate the session</td></tr>
       <tr><td>The Wi-Fi network name tied to an address</td><td>Local database</td><td>To try the address that is valid on the current network first</td></tr>
       <tr><td>Preferences (quality, clipboard, app lock)</td><td>The app's local settings</td><td>To remember your choices</td></tr>
     </tbody>
   </table>
   <p>The password is never written to the database, to settings or to logs, and
-  is never read by the widget and Control Center extensions.</p>
+  is never read by the widget and Control Center extensions. If you turn syncing
+  on, Apple carries it between your devices in the iCloud Keychain without the
+  developer ever seeing it.</p>
 
   <h3>Data transmission</h3>
   <p>The only traffic the app generates is the connection to your Mac, to the
@@ -73,6 +75,14 @@
   <p>MacPortal Pro is handled entirely by Apple's In-App Purchase system. The
   developer never sees your payment details: the app only asks the system
   whether the purchase has been made.</p>
+
+  <h3>Syncing between your devices</h3>
+  <p>With MacPortal Pro you can sync your saved Macs across iPhone, iPad and Mac
+  signed in to the same Apple Account. The data travels in your own private
+  iCloud database and the passwords in the iCloud Keychain: both are yours, the
+  developer has access to neither, and there is no MacPortal server. Syncing is
+  turned on from the app's settings, can be turned off, and turning it off
+  leaves the data already on each device where it is.</p>
 
   <h3>Third parties</h3>
   <p>The app uses the open source library RoyalVNCKit for the VNC protocol. It
