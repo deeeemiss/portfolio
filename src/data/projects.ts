@@ -15,9 +15,11 @@ export interface Project {
   tech: string[]
   icon?: string
   image?: string
+  imageCredit?: string
+  animation?: string
   link?: string
   featured?: boolean
-  platform?: 'mobile' | 'web'
+  platform?: 'mobile' | 'web' | 'desktop'
   links?: ProjectLinks
 }
 
@@ -28,6 +30,25 @@ export function isProjectReady(project: Project): boolean {
 }
 
 export const projects: Project[] = [
+  {
+    id: 'peek3d',
+    title: 'Peek3D',
+    year: 2026,
+    description:
+      'Visualizzatore di file 3D nativo per macOS, gratuito e open source: trascini un file e lo guardi. Apre glTF, FBX, OBJ, USD, STL e altri formati, con viste dagli assi, modalità di shading, wireframe e animazioni. Nessuna rete, nessun dato raccolto.',
+    descriptionEn:
+      'Free, open-source native 3D file viewer for macOS: drop a 3D file, look at it. Opens glTF, FBX, OBJ, USD, STL and more, with axis views, shading modes, wireframe and animation playback. No network, no data collected.',
+    tech: ['Swift', 'SwiftUI', 'SceneKit', 'GLTFKit2', 'ufbx', 'Model I/O'],
+    icon: '/images/projects/peek3d-icon.png',
+    image: '/images/projects/peek3d.webp',
+    animation: '/images/projects/peek3d-demo.webp',
+    imageCredit: 'Fox model by PixelMannen (CC BY 4.0)',
+    platform: 'desktop',
+    featured: true,
+    links: {
+      github: 'https://github.com/deeeemiss/Peek3D',
+    },
+  },
   {
     id: 'lvgl-simulator',
     title: 'LVGL Simulator',

@@ -82,7 +82,7 @@ function PhoneFrame({ image, title }: { image?: string; title: string }) {
   )
 }
 
-function MacFrame({ image, title }: { image?: string; title: string }) {
+function MacFrame({ image, animation, title, credit }: { image?: string; animation?: string; title: string; credit?: string }) {
   return (
     <div className="flex-shrink-0 flex flex-col items-center">
       {/* display body */}
@@ -94,7 +94,10 @@ function MacFrame({ image, title }: { image?: string; title: string }) {
         {/* screen */}
         <div className="h-[67px] overflow-hidden">
           {image ? (
-            <img src={image} alt={title} className="w-full h-full object-cover object-top" />
+            <picture className="block w-full h-full">
+              {animation && <source srcSet={animation} media="(prefers-reduced-motion: no-preference)" />}
+              <img src={image} alt={credit ? `${title} — ${credit}` : title} title={credit} loading="lazy" className="w-full h-full object-cover object-top" />
+            </picture>
           ) : (
             <div className="w-full h-full bg-gradient-to-b from-bg-elevated to-bg-base" />
           )}
@@ -125,15 +128,12 @@ export function ProjectCard({ project }: Props) {
     >
       {/* Info */}
       <div className="flex-1 min-w-0">
-        {/* App icon — only when provided */}
-        {project.icon && (
-          <div className="w-[40px] h-[40px] rounded-[10px] overflow-hidden mb-2">
-            <img src={project.icon} alt={project.title} className="w-full h-full object-cover" />
-          </div>
-        )}
-
         <div className="flex items-start justify-between gap-2">
           <div className="flex items-center gap-2 flex-wrap">
+            {/* App icon — only when provided */}
+            {project.icon && (
+              <img src={project.icon} alt="" className="w-[28px] h-[28px] rounded-[7px] object-cover" />
+            )}
             <h3 className="font-sans text-[14px] font-bold text-text-primary leading-tight">
               {project.title}
             </h3>
@@ -174,9 +174,9 @@ export function ProjectCard({ project }: Props) {
       </div>
 
       {/* Device mockup */}
-      {project.platform === 'web' ? (
+      {project.platform === 'web' || project.platform === 'desktop' ? (
         <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">
-          <MacFrame image={project.image} title={project.title} />
+          <MacFrame image={project.image} animation={project.animation} title={project.title} credit={project.imageCredit} />
         </div>
       ) : (
         <div style={{ transform: 'rotate(6deg)' }} className="flex-shrink-0">

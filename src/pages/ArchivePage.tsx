@@ -62,7 +62,7 @@ export function ArchivePage() {
               </td>
               <td className="py-4 align-top">
                 {(() => {
-                  const url = project.link ?? project.links?.website ?? project.links?.appStore ?? project.links?.playStore
+                  const url = project.link ?? project.links?.website ?? project.links?.appStore ?? project.links?.playStore ?? project.links?.github
                   return url ? (
                     <a
                       href={url}
