@@ -46,6 +46,7 @@ export const projects: Project[] = [
     platform: 'desktop',
     featured: true,
     links: {
+      website: 'https://deeeemiss.github.io/Peek3D/',
       github: 'https://github.com/deeeemiss/Peek3D',
     },
   },
